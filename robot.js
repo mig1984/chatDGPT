@@ -34,7 +34,7 @@ Velice se omlouvam, nejsem vsak schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
-pocasi clovek ai robot svetr prdele pici hajzlu
+pocasi clovek ai robot svetr prdele pici hajzlu let roku svetru
 `
 
 const definitionString = `
@@ -50,9 +50,9 @@ j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat ok
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
-kolik: Dva.|Pet.|Tri.|Deset.|Sto padesat.|Kolik, to zalezi na Markete Pekarove-Eidamove.
+kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.
 
-kdo: Nikdo.|Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
+kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
 kdy: Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
