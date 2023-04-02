@@ -121,8 +121,7 @@ function robot(question) {
   question = ' ' + question + ' '
   let answer = matchQuestion(question, definition);
   if (answer) {
-    alert(question=='eee')
-    if (question!='eee')
+    if (origQuestion!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
     answer = answer.replace(/\s+/, ' ')
