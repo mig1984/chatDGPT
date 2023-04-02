@@ -59,6 +59,7 @@ j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat ok
 jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
 jak: Nijak.|Nejak.|To nelze presne rici.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.
+jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.
