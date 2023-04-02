@@ -57,6 +57,7 @@ proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Ei
 /***************************************************************/
 
 let firstTime = true;
+let lastQuestion;
 
 const subjectsRxp = new RegExp(' ' + subjects.trim().split(/\s+/).join('|').toLowerCase() + ' ');
 
@@ -164,6 +165,8 @@ function robot(question) {
   question = removeDiacritics(question);
   question = question.replace(/[.?,;!:]/, ' ')
   origQuestion = question
+  if (question=='ano') question = lastQuestion
+  lastQuestion = question
   question = ' ' + question + ' '
   let answer = matchQuestion(question, definition);
   if (answer) {
