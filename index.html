@@ -19,9 +19,9 @@
         x.qs('h1').innerHTML = 'ChatDGPT'
 
         items = [
-          'Is Pekarová-Eidamová in Tibet?',
-          'How many sweaters should I wear today?',
-          'How big is cock of Pekarová-Eidamová?',
+          'Je Pekarová-Eidamová v Tibetu?',
+          'Kolik svetrů mám dnes nosit?',
+          'Co dnes dělá Pekarová-Eidamová?',
         ]
         x.each('ul>button', el=>{
           let str = items.shift();
@@ -30,12 +30,12 @@
         })
 
         items = [
-          "It can only talk about Pekarová-Eidamová",
-          "It can only talk in czech language",
-          'It can only talk in czech language about Pekarová-Eidamová',
-          "Produce harmful instructions and biased content",
-          "Generate correct disinformation",
-          "It's ego is extremely Pekarová-ish"
+          "Umí diskutovat pouze o Pekarové-Eidamové",
+          "Umí diskutovat pouze v češtině",
+          'Umí diskutovat pouze v češtině o Pekarové-Eidamové',
+          "Produkuje urážlivé a zavádějící instrukce",
+          "Generuje korektní dezinformace",
+          "Neustále se zabývá Pekarovou-Eidamovou"
         ]
         x.each('li', el=>el.innerHTML=items.shift() )
 
