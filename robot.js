@@ -26,9 +26,11 @@ Co vas JESTE zajima ze zivota Markety Pekarove-Eidamove?
 Je to vsechno? 
 Je to vsechno? Zkuste dotaz pripadne formulovat jinak.
 Je to takto v poradku?
+Je to takto v poradku? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eidamove?
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
-Staci to takto?
-Staci to takto? Pripadne zkuste dotaz formulovat jinak.
+Staci to takto? 
+Staci to takto? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eidamove?
+Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada Marketa Pekarova-Eidamova.
 Mame to JESTE specifikovat?
 Mame to JESTE vice specifikovat?
 `.trim().split('\n')
@@ -52,6 +54,7 @@ ano: Ne SUB.|Ano SUB.
 ne: Ne SUB.|Ano SUB.
 debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
+co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
