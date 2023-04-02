@@ -26,7 +26,7 @@
         x.each('button', el=>{
           let str = items.shift();
           el.innerHTML = '"' + str + '" →';
-          el.onclick = function() { x.qs('textarea').value=str; }
+          el.onclick = el.ontap = function() { x.qs('textarea').value=str; }
         })
 
         items = [
@@ -44,12 +44,14 @@
         let form = ta.closest('form')
         let submitButton = form.qs('button[disabled]')
         form.action = 'chat.html'
+
+        submitButton.onclick = ()=>{}
         
         form.onsubmit = () => {
           localStorage.setItem('question', ta.value)
           return true; // do submit
         }
-        ta.onclick = function(event) {
+        ta.onclick = ta.ontap = function(event) {
           submitButton.disabled = false
         }
         ta.onkeydown = function(event) {
