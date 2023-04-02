@@ -16,21 +16,21 @@ Pardon, nepochopilo jsme otazku QUE. Spravne to je:
 `.trim().split('\n')
 
 const suffixes = `
-Jak vam mohu pomoci?
-S cim vam jeste mohu pomoci?
-Co vas zajima ze zivota Markety Pekarove-Eidamove?
+Jak vam JESTE mohu pomoci?
+S cim vam JESTE mohu pomoci?
+Co vas JESTE zajima ze zivota Markety Pekarove-Eidamove?
 Je to vsechno?
 Je to takto v poradku?
 Staci to takto?
-Mam to jeste specifikovat?
-Mam to vice specifikovat?
+Mam to JESTE specifikovat?
+Mam to JESTE vice specifikovat?
 `.trim().split('\n')
 
 const unknown = `
 Byl detekovan nevhodny obsah.
 Bohuzel neznam odpoved.
 Omlouvam se, ale neznam odpoved.
-Velice se omlouvam, nejsem vsak schopno zodpovedet vas dotaz.
+Velice se omlouvam, nejsem schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
@@ -186,6 +186,10 @@ function robot(question) {
     answer = prefixAnswer(origQuestion, answer)
   }
   answer = suffixAnswer(answer)
+  if (firstTime) 
+    answer.replace(/JESTE/, '')
+  else
+    answer.replace(/JESTE/, 'jeste')
   answer = answer.replace(/\s+/g, ' ')
   return answer;
 }
