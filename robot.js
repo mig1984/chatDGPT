@@ -6,13 +6,14 @@ Dobry den, jsem umela demence nove generace.
 `.trim().split('\n')
 
 const prefixes = `
-Jiste. Na otazku QUE je jednoducha odpoved.
+Jiste. Na otazku QUE je jednoducha odpoved:
 Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
-Omlouvam se, nepochopilo jsme QUE. Spravne je:
-Ovsem.
+Omlouvam se,
+Ovsem,
 Samozrejme,
 Jiste.
-Pardon, nepochopilo jsme otazku QUE. Spravne je:
+Pardon,
+Velice se omlouvam,
 `.trim().split('\n')
 
 const suffixes = `
