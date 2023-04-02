@@ -56,6 +56,7 @@ debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu 
 
 co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
+co: Co? Myslite tim co dela Marketa Pekarova-Eidamova?
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
 jak: Nijak.|Nejak.|To nelze presne rici.
