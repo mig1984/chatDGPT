@@ -24,7 +24,8 @@ function toggleMode() {
 
 function mainThings(x) {
    x.qsa('a').withText('ChatGPT Mar 14 Version', txt=> {
-      txt.textContent = 'ChatDGPT Nightly Nightmare Version'
+      //txt.textContent = 'ChatDGPT Nightly Nightmare Version'
+      console.log('HERE')
       console.log(txt.parentNode)
       txt.parentNode.src = 'https://github.com/mig1984/chatDGPT'
    })
