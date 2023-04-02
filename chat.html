@@ -66,8 +66,8 @@
 
     function typeMessage(el, message) {
       const words = message.split(" ");
-      let i = 0;
-      let gen = () => {
+      const i = 0;
+      const gen = () => {
         if (!generating) return;
 
         scrollMessagesBottom()
@@ -113,6 +113,7 @@
 
       const ta = x.qs('textarea')
       const form = ta.closest('form')
+      form.onsubmit = ()=>return false; // prevent accidental submission
 
       submitButton = form.qs('button[disabled]')
       submitButtonStoppedHTML = submitButton.innerHTML
@@ -156,7 +157,7 @@
       replace(x)
       
       // initial question from index.html
-      let q = localStorage.getItem('question')
+      const q = localStorage.getItem('question')
       if (q) {
         ta.value = q
         localStorage.removeItem('question')
