@@ -154,7 +154,6 @@ function matchQuestion(question, items) {
 function prefixAnswer(question, answer) {
   let prefix;
   if (firstTime) {
-    firstTime = false;
     prefix = firsttimes[Math.floor(Math.random() * firsttimes.length)]
   } else {
     prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
@@ -192,6 +191,7 @@ function robot(question) {
   else
     answer = answer.replace(/JESTE/, 'jeste')
   answer = answer.replace(/\s+/g, ' ')
+  firstTime = false;
   return answer;
 }
 
