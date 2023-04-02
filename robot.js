@@ -27,7 +27,7 @@ Velice se omlouvam, nejsem vsak schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
-pocasi clovek ai robot svetr
+pocasi clovek ai robot svetr prdele pici hajzlu
 `
 
 const definitionString = `
@@ -36,16 +36,21 @@ ahoj cau: Dobry den.
 ano: Ne SUB.|Ano SUB.
 ne: Ne SUB.|Ano SUB.
 pokracuj: Ano, budu pokracovat.
-debile kretene pico blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
+debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
+
+co dela: To nevim, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
+j?di do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 kolik: SUB? Dva.|SUB? Pet.|Kolik, to zalezi na Markete Pekarove-Eidamove.
-proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.
-co dela: To nevim, ale Marketa Pekarova-Eidamova dela hovno.
-kdo: Nikdo.|Marketa Pekarova-Eidamova.|Nekdo.
+
+kdo: Nikdo.|Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kdo(pak)? jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
+kdy: Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
+proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.
+
 `;
 
 
