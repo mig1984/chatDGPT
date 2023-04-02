@@ -51,7 +51,7 @@ const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 ahoj|cau|dobry den: Dobry den.
 ano: Ne SUB.|Ano SUB.
-ne: Ne SUB.|Ano SUB.
+ne: Ne SUB.|Ano SUB.|Ne? To je skoda.
 debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
