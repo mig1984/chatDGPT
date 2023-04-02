@@ -1,4 +1,4 @@
 # chatDGPT
 
-Umělé demence v pokročilém stupni umělé alzheimerovy choroby, postavená na egenerativním modelu DGPT-3.
+Umělá demence v pokročilém stupni umělé alzheimerovy choroby. Systém postaven na degenerativním modelu DGPT-3.
 
