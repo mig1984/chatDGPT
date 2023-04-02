@@ -8,15 +8,22 @@ Dobry den, jsem umela demence nove generace.
 const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved.
 Samozrejme. Pokud vas zajima QUE, pak odpoved je nasledujici: 
-Omlouvam se, nepochopilo jsme QUE.
+Omlouvam se, nepochopilo jsme QUE. Spravne je:
 Ovsem.
+Samozrejme.
+Jiste.
+Pardon, nepochopilo jsme otazku QUE. Spravne to je:
 `.trim().split('\n')
 
 const suffixes = `
-Jak vam jeste mohu pomoci?
+Jak vam mohu pomoci?
+S cim vam jeste mohu pomoci?
+Co vas zajima ze zivota Markety Pekarove-Eidamove?
 Je to vsechno?
+Je to takto v poradku?
 Staci to takto?
 Mam to jeste specifikovat?
+Mam to vice specifikovat?
 `.trim().split('\n')
 
 const unknown = `
