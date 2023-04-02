@@ -106,7 +106,7 @@ function robot(question) {
   question = removeDiacritics(question);
   question = question.replace(/[.?,;!:]/, ' ')
   question = ' ' + question + ' '
-  const answer = matchQuestion(question, definition);
+  let answer = matchQuestion(question, definition);
   if (answer) {
     answer = replaceSubject(question, answer);
     answer = answer.replace(/\s+/, ' ')
