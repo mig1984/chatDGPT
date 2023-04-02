@@ -167,7 +167,7 @@ function robot(question) {
     answer = prefixAnswer(origQuestion, answer)
   }
   answer = suffixAnswer(answer)
-  answer = answer.replace(/\s+/, ' ')
+  answer = answer.replace(/\s+/g, ' ')
   return answer;
 }
 

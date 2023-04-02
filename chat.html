@@ -137,7 +137,7 @@
       submitButtonStoppedHTML = submitButton.innerHTML
       submitButtonGeneratingHTML = '<div class="text-2xl"><span class="invisible">·</span><span class="invisible">·</span><span class="invisible">·</span></div>'
 
-      const onsubmit = function() {
+      const doSubmit = function() {
         if (generating) return;
 
         const question = form.qs('textarea').value
@@ -148,7 +148,7 @@
         return false;
       }
       
-      form.onsubmit = onsubmit
+      form.onsubmit = doSubmit
       
       ta.onclick = ta.ontap = function(event) {
         if (!generating) submitButton.disabled = false
@@ -156,7 +156,7 @@
       ta.onkeydown = function(event) {
         if (event.keyCode === 13 && !event.shiftKey) {
           event.preventDefault()
-          if (!generating) onsubmit()
+          if (!generating) doSubmit()
         }
         if (!generating) submitButton.disabled = false
       }
@@ -169,7 +169,7 @@
       if (q) {
         ta.value = q
         localStorage.removeItem('question')
-        onsubmit()
+        doSubmit()
       }
 
     }
