@@ -42,7 +42,7 @@ Velice se omlouvame, ale nejsme schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
-pocasi clovek ai inteligence demence svetr prdele pici picu hajzlu let roku svetru pekarova eidamova marketa
+pocasi clovek ai inteligence demence svetr prdele pici picu hajzlu let roku svetru
 `
 
 const definitionString = `
