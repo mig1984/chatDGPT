@@ -17,6 +17,10 @@
     var submitButtonGeneratingHTML;
     var submitButtonStoppedHTML;
     var messages;
+    var msgPAD;
+    var msgME;
+    var msgGPT;
+    var msgPRE;
 
     const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -36,13 +40,31 @@
       }
     };
 
-    function startGenerating() {
+    function startGenerating(question) {
       generating = true;
       regenerateButton.parentNode.style = 'display:block'
       regenerateButton.innerHTML = regenerateButtonStopHTML
       submitButton.disabled = true
       submitButton.innerHTML = submitButtonGeneratingHTML
       displayDots(submitButton.qs('.text-2xl'));
+
+      if (question) { // unless regenerate
+        const me = msgME.cloneNode(true)
+        me.qs('div').withText('Proč').parentNode.textContent = question
+        messages.append(me)
+      }
+      
+      if (!question) question='eee'  //regenerate
+              
+      const gpt = msgGPT.cloneNode(true)
+      const el = gpt.qs('div').withText('sorry').parentNode
+      el.innerHTML = ''
+      setTimeout( function() { typeMessage(el, robot(question)) }, 1000);
+      messages.append(gpt)
+
+      messages.append(msgPAD) // move pad element to the bottom (is not a clone)
+      
+      scrollMessagesBottom()
     }
 
     function stopGenerating() {
@@ -99,12 +121,11 @@
       x.each('img[alt="mig@1984.cz"]', el => {el.src=pekarova; el.alt=''; el.srcset=''} )
 
       messages = x.list(null, '.group')
-      const pad = messages.container.qs('.h-32').cloneNode(true) // padding on the top - will be used as a bottom pad instead
+      msgPAD = messages.container.qs('.h-32').cloneNode(true) // padding on the top - will be used as a bottom pad instead
       messages.container.qs('.h-32').remove()
-
-      const me = messages.cloneItem(0)
-      const gpt = messages.cloneItem(1)
-      const pre = messages.cloneItem(5).qs('pre') // TODO
+      msgME = messages.cloneItem(0)
+      msgGPT = messages.cloneItem(1)
+      msgPRE = messages.cloneItem(5).qs('pre') // TODO
 
       regenerateButton = x.qsa('div').withText('Regenerate response')[0].parentNode;
       regenerateButtonRegenerateHTML = regenerateButton.innerHTML.replace(/Regene/, 'Degene')
@@ -123,24 +144,10 @@
       const onsubmit = function() {
         if (generating) return;
 
-        startGenerating()
-
         const question = form.qs('textarea').value
         form.qs('textarea').value = ''
-        
-        const me2 = me.cloneNode(true)
-        me2.qs('div').withText('Proč').parentNode.textContent = question
-        messages.append(me2)
-                
-        const gpt2 = gpt.cloneNode(true)
-        const el = gpt2.qs('div').withText('sorry').parentNode
-        el.innerHTML = ''
-        setTimeout( function() { typeMessage(el, robot(question)) }, 1000);
-        messages.append(gpt2)
 
-        messages.append(pad)  // move pad element to the bottom (is not a clone)
-
-        scrollMessagesBottom()
+        startGenerating(question);
       }
       
       ta.onclick = function(event) {
