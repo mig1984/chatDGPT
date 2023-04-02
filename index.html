@@ -26,7 +26,7 @@
         x.each('button', el=>{
           let str = items.shift();
           el.innerHTML = '"' + str + '" →';
-          el.onclick = function() { x.qs('textarea').value=str; }
+          el.onclick = el.ontap = function() { x.qs('textarea').value=str; }
         })
 
         items = [

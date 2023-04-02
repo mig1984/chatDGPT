@@ -19,8 +19,9 @@ Staci to takto?
 
 const unknown = `
 Sorry jako, ale tohle je harmful content.
-Pravdepodobne je to kravina.
-Neznam odpoved. Zkuste to znovu.
+Bohuzel neznam odpoved.
+Omlouvam se, velice se omlouvam, ale neznam odpoved.
+Velice se omlouvam, ale nejsem schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
