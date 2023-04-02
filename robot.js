@@ -28,10 +28,12 @@ pocasi mesto clovek ai robot
 `
 
 const definitionString = `
-ano: Ne.
-ne: Ano.
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
-debile: Harmful content warning: ty ses debil!
+ahoj: Ahoj.
+cau: Cau.
+ano: Ne.|Ano.
+ne: Ne.|Ano.
+debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 jake: Dobre SUB.|Spatne SUB.
 bude: Nebude.
 kdo: Nikdo.|Tomas|Nekdo
