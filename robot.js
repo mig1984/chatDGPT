@@ -33,6 +33,7 @@ eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 ahoj cau: Dobry den.
 ano: Ne.|Ano.
 ne: Ne.|Ano.
+pokracuj: Ano, budu pokracovat.
 debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 jake: Dobre SUB.|Spatne SUB.
 bude: Nebude.
