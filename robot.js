@@ -3,7 +3,7 @@ let firstTime = true;
 const subjects = / (pocasi|mesto|clovek|ai|robot) /
 
 const prefixes = [
-  'Jmenuji se Pekarová-Eidamová. Jsem degenerativní model umělé demence v pokročilém stadiu umělé alzheimerovy choroby. Odpověď na vaši otázku QUE je tato: '
+  'Jmenuji se Pekarová-Eidamová. Jsem degenerativní model umělé demence v pokročilém stadiu umělé alzheimerovy choroby. Odpověď na vaši otázku QUE je tato: ',
   'Jistě. Na otázku QUE je jednoduchá odpověď.', 
   'Samozřejmě. Pokud vás zajímá QUE, pak odpověď je následující.',
   'Omlouvám se, nepochopilo jsem QUE.'
@@ -129,6 +129,11 @@ function prefixAnswer(question, answer) {
   return prefix.replace(/QUE/, question) + ' ' + answer;
 }
 
+function suffixAnswer(answer) {
+  const suffix = suffixes[Math.floor(Math.random() * suffixes.length)]
+  return answer + ' ' + suffix;
+}
+
 function robot(question) {
   question = question.toLowerCase()
   question = removeDiacritics(question);
@@ -145,6 +150,7 @@ function robot(question) {
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
   }
+  answer = suffixAnswer(answer)
   return answer;
 }
 
