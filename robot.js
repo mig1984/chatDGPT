@@ -3,7 +3,7 @@ let firstTime = true;
 const subjects = / (pocasi|mesto|clovek|ai|robot) /
 
 const prefixes = [
-  'Jmenuji se Pekarová-Eidamová. Jsem degenerativní model umělé demence v pokročilém stadiu umělé alzheimerovy choroby. Odpověď na vaši otázku QUE je tato: ',
+  'Jmenuji se Pekarova-Eidamova. Jsem degenerativni model umele demence v pokrocilem stadium umele alzheimerovy choroby. Odpoved na vasi otazku QUE je tato: ',
   'Jistě. Na otázku QUE je jednoduchá odpověď.', 
   'Samozřejmě. Pokud vás zajímá QUE, pak odpověď je následující.',
   'Omlouvám se, nepochopilo jsem QUE.'
