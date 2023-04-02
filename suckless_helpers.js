@@ -31,7 +31,6 @@ Element.prototype.withText = function(text, parent) {
 
     if (childNode.nodeType === Node.TEXT_NODE) {
       if (childNode.data.match(text)) {
-        console.log('return ' + childNode.nodeName);
         return childNode;
       }
     }
