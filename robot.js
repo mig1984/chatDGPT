@@ -187,9 +187,9 @@ function robot(question) {
   }
   answer = suffixAnswer(answer)
   if (firstTime) 
-    answer.replace(/JESTE/, '')
+    answer = answer.replace(/JESTE/, '')
   else
-    answer.replace(/JESTE/, 'jeste')
+    answer = answer.replace(/JESTE/, 'jeste')
   answer = answer.replace(/\s+/g, ' ')
   return answer;
 }
