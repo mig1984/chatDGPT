@@ -12,7 +12,7 @@ Omlouvam se, nepochopilo jsme QUE. Spravne je:
 Ovsem.
 Samozrejme.
 Jiste.
-Pardon, nepochopilo jsme otazku QUE. Spravne to je:
+Pardon, nepochopilo jsme otazku QUE. Spravne je:
 `.trim().split('\n')
 
 const suffixes = `
