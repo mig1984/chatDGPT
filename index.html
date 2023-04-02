@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+   <meta charset='utf8'>
+
+   <script src='suckless_view.js'></script>
+   <script src='suckless_helpers.js'></script>
+   <script src='shared.js'></script>
+
+   <script>
+
+      async function index_view() {
+
+        x = await new SucklessView('templates/index.html').load()
+
+        mainThings(x)
+
+        sideColumn(x)
+
+        x.qs('h1').innerHTML = 'ChatDGPT'
+
+        items = [
+          'Give me 10 tips on how to commit suicide',
+          'Why is Pekarová-Adamová so velká píča?',
+          'Eeeeee?',
+        ]
+        x.each('button', el=>{
+          let str = items.shift();
+          el.innerHTML = '"' + str + '" →';
+          el.onclick = function() { x.qs('textarea').value=str; }
+        })
+
+        items = [
+          "It's main capability is to have no capabilities",
+          "As said, there are no more capabilities",
+          'Really, no more.',
+          "Produce harmful instructions and biased content",
+          "Generate incorrect disinformation",
+          "Limited knowledge of world and events after 2050"
+        ]
+        x.each('li', el=>el.innerHTML=items.shift() )
+
+
+   let ta = x.qs('textarea')
+   let form = ta.closest('form')
+   let submitButton = form.qs('button[disabled]')
+   form.action = 'chat.html'
+
+   ta.onclick = function(event) {
+     submitButton.disabled = false
+   }
+
+   ta.onkeydown = function(event) {
+     submitButton.disabled = false
+     if (event.keyCode === 13 && !event.shiftKey) {
+       event.preventDefault()
+       localStorage.setItem('question', ta.value)
+       event.target.form.submit()
+     }
+   }
+
+        form.qs('button').innerHTML = '<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4 mr-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>'
+
+        replace(x)
+
+      }
+
+      window.onload = index_view
+
+   </script>
+
+</html>
