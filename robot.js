@@ -52,7 +52,7 @@ eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 ahoj|cau|dobry den: Dobry den.
 ano|jo: Ne SUB.|Ano SUB.
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.
-debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
+jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
