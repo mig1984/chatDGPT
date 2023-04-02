@@ -1,1 +1,4 @@
 link dole odkaz na github
+
+nefunguje tap na button na mobilu
+

@@ -5,21 +5,21 @@ const firsttimes = [
 ]
 
 const prefixes = [
-  'Jistě. Na otázku QUE je jednoduchá odpověď.', 
-  'Samozřejmě. Pokud vás zajímá QUE, pak odpověď je následující.',
-  'Omlouvám se, nepochopilo jsem QUE.'
+  'Jiste. Na otazku QUE je jednoducha odpoved.', 
+  'Samozrejme. Pokud vas zajima QUE, pak odpoved je nasledujici: ',
+  'Omlouvam se, nepochopilo jsem QUE.'
 ]
 
 const suffixes = [
-  'Jak vám ještě mohu pomoci?',
-  'Je to všechno?',
-  'Stačí to takto?'
+  'Jak vam jeste mohu pomoci?',
+  'Je to vsechno?',
+  'Staci to takto?'
 ]
 
 const unknown = [
   'Sorry jako, ale tohle je harmful content.', 
   'Pravdepodobne je to kravina.', 
-  'To nevim. Zkus to znovu.'
+  'Neznam odpoved. Zkuste to znovu.'
 ]
 
 const subjects = / (pocasi|mesto|clovek|ai|robot) /
