@@ -132,8 +132,7 @@
 
       const ta = x.qs('textarea')
       const form = ta.closest('form')
-      form.onsubmit = ()=>{return false;} // prevent accidental submission
-
+      
       submitButton = form.qs('button[disabled]')
       submitButtonStoppedHTML = submitButton.innerHTML
       submitButtonGeneratingHTML = '<div class="text-2xl"><span class="invisible">·</span><span class="invisible">·</span><span class="invisible">·</span></div>'
@@ -145,7 +144,11 @@
         form.qs('textarea').value = ''
 
         startGenerating(question);
+        
+        return false;
       }
+      
+      form.onsubmit = onsubmit
       
       ta.onclick = ta.ontap = function(event) {
         if (!generating) submitButton.disabled = false

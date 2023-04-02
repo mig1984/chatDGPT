@@ -45,6 +45,11 @@
         let submitButton = form.qs('button[disabled]')
         form.action = 'chat.html'
 
+        form.onsubmit = () => {
+          localStorage.setItem('question', ta.value)
+          return true; // do submit
+        }
+        
         ta.onclick = ta.ontap = function(event) {
           submitButton.disabled = false
         }
@@ -52,7 +57,6 @@
           submitButton.disabled = false
           if (event.keyCode === 13 && !event.shiftKey) {
             event.preventDefault()
-            localStorage.setItem('question', ta.value)
             event.target.form.submit()
           }
         }
