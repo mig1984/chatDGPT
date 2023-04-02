@@ -48,8 +48,8 @@ pocasi clovek ai inteligence demence svetr prdele pici picu hajzlu let roku svet
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 ahoj|cau|dobry den: Dobry den.
-ano|jo: Ne SUB.|Ano SUB.
-ne: Ne SUB.|Ano SUB.|Ne? To je skoda.
+ano|jo: Ne SUB.|Ano SUB.|Co ano?
+ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 vic: Tibet.
