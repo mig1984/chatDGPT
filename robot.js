@@ -8,12 +8,12 @@ Dobry den, jsem umela demence nove generace.
 const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved:
 Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
-Omlouvam se,
+Omlouvam se, ale nejsem si jiste,
 Ovsem,
 Samozrejme,
 Jiste.
 Pardon,
-Velice se omlouvam,
+Velice se omlouvam, vec je slozita,
 `.trim().split('\n')
 
 const suffixes = `
