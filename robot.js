@@ -8,39 +8,44 @@ Dobry den, jsem umela demence nove generace.
 const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved.
 Samozrejme. Pokud vas zajima QUE, pak odpoved je nasledujici: 
-Omlouvam se, nepochopilo jsem QUE.
+Omlouvam se, nepochopilo jsme QUE.
+Ovsem.
 `.trim().split('\n')
 
 const suffixes = `
 Jak vam jeste mohu pomoci?
 Je to vsechno?
 Staci to takto?
+Mam to jeste specifikovat?
 `.trim().split('\n')
 
 const unknown = `
-Byl detekovan obsah nevhodny pro mladsi 50 let.
+Byl detekovan nevhodny obsah.
 Bohuzel neznam odpoved.
-Omlouvam se, velice se omlouvam, ale neznam odpoved.
-Velice se omlouvam, ale nejsem schopno zodpovedet vas dotaz.
+Omlouvam se, ale neznam odpoved.
+Velice se omlouvam, nejsem vsak schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
-pocasi mesto clovek ai robot 
+pocasi clovek ai robot svetr
 `
 
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 ahoj cau: Dobry den.
-ano: Ne.|Ano.
-ne: Ne.|Ano.
+ano: Ne SUB.|Ano SUB.
+ne: Ne SUB.|Ano SUB.
 pokracuj: Ano, budu pokracovat.
-debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
-jake: Dobre SUB.|Spatne SUB.
-bude: Nebude.
-kdo: Nikdo.|Tomas|Nekdo
-kdo jsi: Nevim.|Tezko rict.
-kdo(pak)? jsi: Jsem Jan.|Jsem Karel.
-kter(.): Zadn$1.
+debile kretene pico blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
+jak(.): Dobr$1 SUB.|Spatn$1 SUB.
+bude: Nebude SUB.|Ano, bude SUB.
+nebude: Nebude SUB.|Ano, bude SUB.
+kolik: SUB? Dva.|SUB? Pet.|Kolik, to zalezi na Markete Pekarove-Eidamove.
+proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.
+co dela: To nevim, ale Marketa Pekarova-Eidamova dela hovno.
+kdo: Nikdo.|Marketa Pekarova-Eidamova.|Nekdo.
+kdo(pak)? jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
+kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
 `;
 
 
