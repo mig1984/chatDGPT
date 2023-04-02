@@ -45,7 +45,7 @@
         let submitButton = form.qs('button[disabled]')
         form.action = 'chat.html'
 
-        ta.onclick = function(event) {
+        ta.onclick = ta.ontap = function(event) {
           submitButton.disabled = false
         }
         ta.onkeydown = function(event) {
