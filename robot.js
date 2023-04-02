@@ -66,7 +66,7 @@ v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 let firstTime = true;
 let lastQuestion;
 
-const subjectsRxp = new RegExp(' ' + subjects.trim().split(/\s+/).join('|').toLowerCase() + ' ');
+const subjectsRxp = new RegExp(' (' + subjects.trim().split(/\s+/).join('|').toLowerCase() + ') ');
 
 const definition = [];
 
