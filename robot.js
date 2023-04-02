@@ -1,9 +1,15 @@
 const subjects = / (pocasi|mesto|clovek|ai|robot) /
 
+const prefixes = [
+  'Jistě. Na otázku QUE je jednoduchá odpověď.', 
+  'Samozřejmě. QUE.'
+]
+
 const unknown = [
   'Sorry jako, ale tohle je harmful content.', 
   'Pravdepodobne je to kravina.', 
-  'To nevim. Zkus to znovu.']
+  'To nevim. Zkus to znovu.'
+]
 
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
@@ -102,13 +108,21 @@ function matchQuestion(question, items) {
   return null;
 }
 
+function prefixAnswer(question, answer) {
+  const prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
+  return prefix.replace(/QUE/, question) + ' ' + answer;
+}
+
 function robot(question) {
   question = question.toLowerCase()
   question = removeDiacritics(question);
+  origQuestion = question
   question = question.replace(/[.?,;!:]/, ' ')
   question = ' ' + question + ' '
   let answer = matchQuestion(question, definition);
   if (answer) {
+    if (question!='eee')
+      answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
     answer = answer.replace(/\s+/, ' ')
     answer = answer.replace(/\s+([.!?])/, '$1')

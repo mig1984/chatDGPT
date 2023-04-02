@@ -48,14 +48,12 @@
       submitButton.innerHTML = submitButtonGeneratingHTML
       displayDots(submitButton.qs('.text-2xl'));
 
-      if (question) { // unless regenerate
+      if (question!='eee') { // unless regenerate
         const me = msgME.cloneNode(true)
         me.qs('div').withText('Proč').parentNode.textContent = question
         messages.append(me)
       }
       
-      if (!question) question='eee'  //regenerate
-              
       const gpt = msgGPT.cloneNode(true)
       const el = gpt.qs('div').withText('sorry').parentNode
       el.innerHTML = ''
@@ -77,7 +75,7 @@
       if (generating)
         stopGenerating()
       else
-        startGenerating('')
+        startGenerating('eee')
       return false;
     }
 
