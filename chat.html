@@ -113,7 +113,7 @@
 
       const ta = x.qs('textarea')
       const form = ta.closest('form')
-      form.onsubmit = ()=>return false; // prevent accidental submission
+      form.onsubmit = ()=>{return false;} // prevent accidental submission
 
       submitButton = form.qs('button[disabled]')
       submitButtonStoppedHTML = submitButton.innerHTML
