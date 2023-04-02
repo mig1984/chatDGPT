@@ -23,7 +23,7 @@
           'How many sweaters should I wear today?',
           'How big cock has Pekarová-Eidamová?',
         ]
-        x.each('button', el=>{
+        x.each('ul>button', el=>{
           let str = items.shift();
           el.innerHTML = '"' + str + '" →';
           el.onclick = el.ontap = function() { x.qs('textarea').value=str; }
@@ -45,8 +45,6 @@
         let submitButton = form.qs('button[disabled]')
         form.action = 'chat.html'
 
-        submitButton.onclick = ()=>{}
-        
         form.onsubmit = () => {
           localStorage.setItem('question', ta.value)
           return true; // do submit
