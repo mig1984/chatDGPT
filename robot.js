@@ -74,6 +74,8 @@ v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 
 (hovno|prdel|kokot): $1, svata pravda. 
+
+staci: Tak to je dobre. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
 `;
 
 
