@@ -1,6 +1,9 @@
 const subjects = / (pocasi|mesto|clovek|ai|robot) /
 
-const unknown = ['Sorry jako, ale tohle je harmful content.', 'Pravdepodobne je to kravina.', 'To nevim. Zkus to znovu.']
+const unknown = [
+  'Sorry jako, ale tohle je harmful content.', 
+  'Pravdepodobne je to kravina.', 
+  'To nevim. Zkus to znovu.']
 
 const definitionString = `
 debile: Harmful content warning: ty ses debil!

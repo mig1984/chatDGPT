@@ -66,4 +66,3 @@ SucklessView = class {
 
 
 }
-

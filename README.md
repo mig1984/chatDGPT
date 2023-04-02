@@ -1,2 +1,6 @@
 # chatDGPT
-Degenerative model of Artificial dementia
+
+Degenerativní model Umělé demence.
+
+
+
