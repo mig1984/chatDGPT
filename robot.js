@@ -34,7 +34,7 @@ Velice se omlouvam, nejsem vsak schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
-pocasi clovek ai robot svetr prdele pici hajzlu let roku svetru
+pocasi clovek ai inteligence demence svetr prdele pici hajzlu let roku svetru pekarova eidamova marketa
 `
 
 const definitionString = `
@@ -42,7 +42,6 @@ eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 ahoj|cau|dobry den: Dobry den.
 ano: Ne SUB.|Ano SUB.
 ne: Ne SUB.|Ano SUB.
-pokracuj: Ano, budu pokracovat.
 debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 co+dela: To nevim, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
@@ -172,7 +171,7 @@ function robot(question) {
   question = removeDiacritics(question);
   question = question.replace(/[.?,;!:]/, ' ')
   origQuestion = question
-  if (question=='ano' || question=='ne') question = lastQuestion
+  if (question.match(/ (ano|ne|pokracuj) /) question = lastQuestion
   lastQuestion = question
   question = ' ' + question + ' '
   let answer = matchQuestion(question, definition);
