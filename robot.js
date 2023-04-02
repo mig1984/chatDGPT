@@ -35,8 +35,8 @@ Mam to JESTE vice specifikovat?
 
 const unknown = `
 Byl detekovan nevhodny obsah. Zkuste polozit jinou, mene utocnou otazku. Treba ohledne Markety Pekarove-Eidamove.
-Bohuzel neznam odpoved.
-Bohuzel neznam odpoved. Zkuste otazku formulovat jinak.
+Bohuzel nezname odpoved.
+Bohuzel nezname odpoved. Zkuste otazku formulovat jinak.
 Omlouvame se, ale nezname odpoved.
 Velice se omlouvame, ale nejsme schopno zodpovedet vas dotaz.
 `.trim().split('\n')
