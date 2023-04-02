@@ -26,7 +26,7 @@
         x.each('button', el=>{
           let str = items.shift();
           el.innerHTML = '"' + str + '" →';
-          el.onclick = el.ontap = function() { x.qs('textarea').value=str; }
+          el.onclick = function() { x.qs('textarea').value=str; }
         })
 
         items = [
@@ -44,19 +44,19 @@
         let form = ta.closest('form')
         let submitButton = form.qs('button[disabled]')
         form.action = 'chat.html'
-
+        
         form.onsubmit = () => {
           localStorage.setItem('question', ta.value)
           return true; // do submit
         }
-        ta.onclick = ta.ontap = function(event) {
+        ta.onclick = function(event) {
           submitButton.disabled = false
         }
         ta.onkeydown = function(event) {
           submitButton.disabled = false
           if (event.keyCode === 13 && !event.shiftKey) {
             event.preventDefault()
-            //event.target.form.submit()
+            event.target.form.submit()
           }
         }
 
