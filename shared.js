@@ -1,5 +1,5 @@
 function setMode(mode) {
-   let html = document.qs('html')
+   const html = document.qs('html')
    if (mode=='dark') {
       html.style = "color-scheme: dark;";
       html.classList.add('dark');
@@ -23,7 +23,6 @@ function toggleMode() {
 
 
 function mainThings(x) {
-   x.qs('title').innerHTML = 'ChatDGPT'
    x.qsa('a').withText('ChatGPT Mar 14 Version', txt=> {
       txt.textContent = 'ChatDGPT Nightly Nightmare Version'
    })

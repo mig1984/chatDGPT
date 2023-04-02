@@ -14,7 +14,8 @@
 
         mainThings(x)
         sideColumn(x)
-        
+
+        x.qs('title').innerHTML = 'ChatDGPT'
         x.qs('h1').innerHTML = 'ChatDGPT'
 
         items = [
@@ -38,7 +39,7 @@
         ]
         x.each('li', el=>el.innerHTML=items.shift() )
 
-        
+
         let ta = x.qs('textarea')
         let form = ta.closest('form')
         let submitButton = form.qs('button[disabled]')
