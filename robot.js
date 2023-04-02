@@ -1,9 +1,10 @@
 let firstTime = true;
 
-const subjects = / (pocasi|mesto|clovek|ai|robot) /
+const firsttimes = [
+ 'Ahoj, jsem Pekarova-Eidamova, degenerativni model umele demence v pokrocilem stadium umele alzheimerovy choroby. Odpoved na vasi otazku QUE je tato: ',
+]
 
 const prefixes = [
-  'Jmenuji se Pekarova-Eidamova. Jsem degenerativni model umele demence v pokrocilem stadium umele alzheimerovy choroby. Odpoved na vasi otazku QUE je tato: ',
   'Jistě. Na otázku QUE je jednoduchá odpověď.', 
   'Samozřejmě. Pokud vás zajímá QUE, pak odpověď je následující.',
   'Omlouvám se, nepochopilo jsem QUE.'
@@ -20,6 +21,8 @@ const unknown = [
   'Pravdepodobne je to kravina.', 
   'To nevim. Zkus to znovu.'
 ]
+
+const subjects = / (pocasi|mesto|clovek|ai|robot) /
 
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
@@ -122,7 +125,7 @@ function prefixAnswer(question, answer) {
   let prefix;
   if (firstTime) {
     firstTime = false;
-    prefix = prefixes[0]
+    prefix = firsttimes[Math.floor(Math.random() * prefixes.length)]
   } else {
     prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
   }
