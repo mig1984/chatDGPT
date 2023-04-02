@@ -194,7 +194,7 @@ function normalizeSentence(sentence) {
 }
 
 function robot(question) {
-  question = question.toLowerCase().normalize("NFD");
+  question = question.toLowerCase() //.normalize("NFD");
   question = removeDiacritics(question);
   question = question.replace(/[.?,;!:]/, ' ')
   question = ' ' + question + ' '
