@@ -29,8 +29,8 @@ pocasi mesto clovek ai robot
 
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
-ahoj: Ahoj.
-cau: Cau.
+ahoj: 
+cau: 
 ano: Ne.|Ano.
 ne: Ne.|Ano.
 debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
