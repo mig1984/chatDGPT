@@ -197,13 +197,14 @@ function robot(question) {
   question = question.toLowerCase().normalize("NFD");
   question = removeDiacritics(question);
   question = question.replace(/[.?,;!:]/, ' ')
-  origQuestion = question
   question = ' ' + question + ' '
+  origQuestion = question
   if (question.match(/ (ano|pokracuj) /)) question = lastQuestion
   lastQuestion = question  
+  console.log(question)
   let answer = matchQuestion(question, definition);
   if (answer) {
-    if (origQuestion!='eee')
+    if (origQuestion.trim()!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
     answer = suffixAnswer(answer)
