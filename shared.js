@@ -30,7 +30,7 @@ function mainThings(x) {
 
 function sideColumn(x) {
    x.qsa('a').withText('Clear conversations', txt=> {
-      txt.parentNode.closest('a').onclick = function() { alert("Pekarová-Eidamová can not be cleared. She/it is already clean jako lilie."); return false; }
+      txt.parentNode.closest('a').onclick = function() { alert("Pekarová-Eidamová can not be cleared. She/it already is clean jako lilie."); return false; }
    })
 
    x.qsa('a').withText('Upgrade to Plus', txt=> {
