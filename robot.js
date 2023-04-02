@@ -66,7 +66,7 @@ jak+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
-nijak: To je ale veliká škoda, tak hezky se s vámi diskutuje.
+nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
 kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
 
