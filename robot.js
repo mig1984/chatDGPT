@@ -171,9 +171,9 @@ function robot(question) {
   question = removeDiacritics(question);
   question = question.replace(/[.?,;!:]/, ' ')
   origQuestion = question
-  if (question.match(/ (ano|ne|pokracuj) /)) question = lastQuestion
-  lastQuestion = question
   question = ' ' + question + ' '
+  if (question.match(/ (ano|ne|pokracuj) /)) question = lastQuestion
+  lastQuestion = question  
   let answer = matchQuestion(question, definition);
   if (answer) {
     if (origQuestion!='eee')
