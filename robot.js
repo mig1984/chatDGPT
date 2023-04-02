@@ -1,6 +1,6 @@
 const firsttimes = `
-Ahoj, jsem umela demence v pokrocilem stadium umele alzheimerovy choroby.
-Ahoj, jsem umela demence, degenerativni model DGPT-3.
+Dobry den, jsem umela demence v pokrocilem stadium umele alzheimerovy choroby.
+Dobry den, jsem umela demence, degenerativni model DGPT-3.
 Dobry den, jsem degenerativni model DGPT-3, umela demence nove generace.
 Dobry den, jsem umela demence nove generace.
 `.trim().split('\n')
@@ -29,8 +29,7 @@ pocasi mesto clovek ai robot
 
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
-ahoj: Ahoj lidi.
-cau: Cau lidi. 
+ahoj cau: Dobry den.
 ano: Ne.|Ano.
 ne: Ne.|Ano.
 debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
