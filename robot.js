@@ -7,10 +7,10 @@ Dobry den, jsem umela demence nove generace.
 
 const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved.
-Samozrejme. Pokud vas zajima QUE, pak odpoved je nasledujici: 
+Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
 Omlouvam se, nepochopilo jsme QUE. Spravne je:
 Ovsem.
-Samozrejme.
+Samozrejme,
 Jiste.
 Pardon, nepochopilo jsme otazku QUE. Spravne je:
 `.trim().split('\n')
@@ -166,6 +166,20 @@ function suffixAnswer(answer) {
   return answer + ' ' + suffix;
 }
 
+function normalizeSentence(sentence) {
+  // Replace lowercase letter after comma and optional space with uppercase letter
+  sentence = sentence.replace(/,\s*([a-z])/g, (match, p1) => `, ${p1.toUpperCase()}`);
+  
+  // Replace uppercase letter after period, exclamation point or question mark with lowercase letter
+  sentence = sentence.replace(/([.!?]\s*)([A-Z])/g, (match, p1, p2) => `${p1}${p2.toLowerCase()}`);
+
+  sentence = sentence.replace(/\s+/g, ' ')
+  sentence = sentence.replace(/\s+([.!?])/, '$1')
+  sentence = sentence.replace(/\s+,/, ',')
+
+  return sentence;
+}
+
 function robot(question) {
   question = question.toLowerCase().normalize("NFD");
   question = removeDiacritics(question);
@@ -179,8 +193,6 @@ function robot(question) {
     if (origQuestion!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
-    answer = answer.replace(/\s+/, ' ')
-    answer = answer.replace(/\s+([.!?])/, '$1')
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
     answer = prefixAnswer(origQuestion, answer)
@@ -190,7 +202,7 @@ function robot(question) {
     answer = answer.replace(/JESTE/, '')
   else
     answer = answer.replace(/JESTE/, 'jeste')
-  answer = answer.replace(/\s+/g, ' ')
+  answer = normalizeSentence(answer)
   firstTime = false;
   return answer;
 }
