@@ -221,6 +221,7 @@ function robot(question) {
     answer = suffixAnswer(answer)
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
+    answer = replaceSubject(question, answer);
   }
   if (firstTime) 
     answer = answer.replace(/JESTE/, '')
