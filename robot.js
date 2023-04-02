@@ -6,7 +6,7 @@ const unknown = [
   'To nevim. Zkus to znovu.']
 
 const definitionString = `
-eee: Eeeeeeeee.
+eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 debile: Harmful content warning: ty ses debil!
 jake: Dobre SUB.|Spatne SUB.
 bude: Nebude.
