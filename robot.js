@@ -148,9 +148,9 @@ function removeDiacritics(str) {
 function replaceSubject(question, answer) {
   const match = question.match(subjectsRxp)
   if (match)
-    return answer.replace(/SUB/, match[1]);
+    return answer.replace(/SUB/g, match[1]);
   else
-    return answer.replace(/SUB/, '');
+    return answer.replace(/SUB/g, '');
 }
 
 function matchQuestion(question, items) {
@@ -223,7 +223,7 @@ function robot(question) {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
     answer = replaceSubject(question, answer);
   }
-  if (firstTime) 
+  if (firstTime)
     answer = answer.replace(/JESTE/, '')
   else
     answer = answer.replace(/JESTE/, 'jeste')
