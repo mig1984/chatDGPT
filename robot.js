@@ -1,7 +1,7 @@
 let firstTime = true;
 
 const firsttimes = [
- 'Ahoj, jsem Pekarova-Eidamova, degenerativni model umele demence v pokrocilem stadium umele alzheimerovy choroby. Odpoved na vasi otazku QUE je tato: ',
+ 'Ahoj, jsem Pekarova-Eidamova, degenerativni model umele demence v pokrocilem stadium umele alzheimerovy choroby.',
 ]
 
 const prefixes = [
