@@ -18,7 +18,7 @@ Staci to takto?
 `.trim().split('\n')
 
 const unknown = `
-Sorry jako, ale tohle je harmful content.
+Byl detekovan obsah nevhodny pro mladsi 50 let.
 Bohuzel neznam odpoved.
 Omlouvam se, velice se omlouvam, ale neznam odpoved.
 Velice se omlouvam, ale nejsem schopno zodpovedet vas dotaz.
