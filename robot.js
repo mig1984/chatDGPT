@@ -148,6 +148,7 @@ function robot(question) {
     answer = answer.replace(/\s+/, ' ')
     answer = answer.replace(/\s+([.!?])/, '$1')
   } else {
+    answer = prefixAnswer(origQuestion, '')
     answer = unknown[Math.floor(Math.random() * unknown.length)]
   }
   answer = suffixAnswer(answer)
