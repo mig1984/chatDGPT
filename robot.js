@@ -28,10 +28,11 @@ Mam to JESTE vice specifikovat?
 `.trim().split('\n')
 
 const unknown = `
-Byl detekovan nevhodny obsah.
+Byl detekovan nevhodny obsah. Zkuste polozit jinou, mene utocnou otazku. Treba ohledne Markety Pekarove-Eidamove.
 Bohuzel neznam odpoved.
-Omlouvam se, ale neznam odpoved.
-Velice se omlouvam, nejsem schopno zodpovedet vas dotaz.
+Bohuzel neznam odpoved. Zkuste otazku formulovat jinak.
+Omlouvame se, ale nezname odpoved.
+Velice se omlouvame, ale nejsem schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
@@ -195,11 +196,10 @@ function robot(question) {
     if (origQuestion!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
+    answer = suffixAnswer(answer)
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
-    //answer = prefixAnswer(origQuestion, answer)
   }
-  answer = suffixAnswer(answer)
   if (firstTime) 
     answer = answer.replace(/JESTE/, '')
   else
