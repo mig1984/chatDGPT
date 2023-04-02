@@ -56,6 +56,7 @@ kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa P
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
 kdy: Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
 proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.
+s nicim|nic: Dobre. A co by vas jeste zajimalo ze zivota Markety Pekarove-Eidamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Eidamove?
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 `;
