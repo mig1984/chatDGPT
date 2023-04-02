@@ -43,7 +43,7 @@ j?di do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat ok
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
-kolik: SUB? Dva.|SUB? Pet.|Kolik, to zalezi na Markete Pekarove-Eidamove.
+kolik: Dva.|Pet.|Tri.|Deset.|Sto padesat.|Kolik, to zalezi na Markete Pekarove-Eidamove.
 
 kdo: Nikdo.|Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kdo(pak)? jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
