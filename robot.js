@@ -140,7 +140,7 @@ function prefixAnswer(question, answer) {
   } else {
     prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
   }
-  return prefix.replace(/QUE/, question) + ' ' + answer;
+  return prefix.replace(/QUE/, question.trim()) + ' ' + answer;
 }
 
 function suffixAnswer(answer) {
