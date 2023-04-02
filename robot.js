@@ -20,8 +20,8 @@ Velice se omlouvame, vec je slozita,
 `.trim().split('\n')
 
 const suffixes = `
-Jak vam JESTE mohu pomoci?
-S cim vam JESTE mohu pomoci?
+Jak vam JESTE muzeme pomoci?
+S cim vam JESTE muzeme pomoci?
 Co vas JESTE zajima ze zivota Markety Pekarove-Eidamove?
 Je to vsechno? 
 Je to vsechno? Zkuste dotaz pripadne formulovat jinak.
@@ -29,8 +29,8 @@ Je to takto v poradku?
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
 Staci to takto?
 Staci to takto? Pripadne zkuste dotaz formulovat jinak.
-Mam to JESTE specifikovat?
-Mam to JESTE vice specifikovat?
+Mame to JESTE specifikovat?
+Mame to JESTE vice specifikovat?
 `.trim().split('\n')
 
 const unknown = `
