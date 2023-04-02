@@ -32,7 +32,7 @@ pocasi clovek ai robot svetr prdele pici hajzlu
 
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
-ahoj cau: Dobry den.
+ahoj|cau|dobry den: Dobry den.
 ano: Ne SUB.|Ano SUB.
 ne: Ne SUB.|Ano SUB.
 pokracuj: Ano, budu pokracovat.
