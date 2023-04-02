@@ -197,7 +197,7 @@ function robot(question) {
     answer = replaceSubject(question, answer);
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
-    answer = prefixAnswer(origQuestion, answer)
+    //answer = prefixAnswer(origQuestion, answer)
   }
   answer = suffixAnswer(answer)
   if (firstTime) 
