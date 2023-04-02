@@ -1,30 +1,35 @@
-let firstTime = true;
+const firsttimes = `
+Ahoj, jsem umela demence v pokrocilem stadium umele alzheimerovy choroby.
+Ahoj, jsem umela demence, degenerativni model DGPT-3.
+Dobry den, jsem degenerativni model DGPT-3, umela demence nove generace.
+Dobry den, jsem umela demence nove generace.
+`.trim().split('\n')
 
-const firsttimes = [
- 'Ahoj, jsem Pekarova-Eidamova, degenerativni model umele demence v pokrocilem stadium umele alzheimerovy choroby.',
-]
+const prefixes = `
+Jiste. Na otazku QUE je jednoducha odpoved.
+Samozrejme. Pokud vas zajima QUE, pak odpoved je nasledujici: 
+Omlouvam se, nepochopilo jsem QUE.
+`.trim().split('\n')
 
-const prefixes = [
-  'Jiste. Na otazku QUE je jednoducha odpoved.', 
-  'Samozrejme. Pokud vas zajima QUE, pak odpoved je nasledujici: ',
-  'Omlouvam se, nepochopilo jsem QUE.'
-]
+const suffixes = `
+Jak vam jeste mohu pomoci?
+Je to vsechno?
+Staci to takto?
+`.trim().split('\n')
 
-const suffixes = [
-  'Jak vam jeste mohu pomoci?',
-  'Je to vsechno?',
-  'Staci to takto?'
-]
+const unknown = `
+Sorry jako, ale tohle je harmful content.
+Pravdepodobne je to kravina.
+Neznam odpoved. Zkuste to znovu.
+`.trim().split('\n')
 
-const unknown = [
-  'Sorry jako, ale tohle je harmful content.', 
-  'Pravdepodobne je to kravina.', 
-  'Neznam odpoved. Zkuste to znovu.'
-]
-
-const subjects = / (pocasi|mesto|clovek|ai|robot) /
+const subjects = ` 
+pocasi mesto clovek ai robot 
+`
 
 const definitionString = `
+ano: Ne.
+ne: Ano.
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 debile: Harmful content warning: ty ses debil!
 jake: Dobre SUB.|Spatne SUB.
@@ -37,6 +42,10 @@ kter(.): Zadn$1.
 
 
 /***************************************************************/
+
+let firstTime = true;
+
+const subjectsRxp = new RegExp(' ' + subjects.trim().split(/\s+/).join('|').toLowerCase() + ' ');
 
 const definition = [];
 
@@ -92,7 +101,7 @@ function removeDiacritics(str) {
 }
 
 function replaceSubject(question, answer) {
-  const match = question.match(subjects)
+  const match = question.match(subjectsRxp)
   if (match)
     return answer.replace(/SUB/, match[1]);
   else
