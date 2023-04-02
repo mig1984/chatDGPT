@@ -48,6 +48,8 @@ debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu 
 
 co+dela: To nevim, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
+jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
+jak: Nijak.|Nejak.|To nelze presne rici.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
@@ -189,7 +191,7 @@ function robot(question) {
   question = question.replace(/[.?,;!:]/, ' ')
   origQuestion = question
   question = ' ' + question + ' '
-  if (question.match(/ (ano|ne|pokracuj) /)) question = lastQuestion
+  if (question.match(/ (ano|pokracuj) /)) question = lastQuestion
   lastQuestion = question  
   let answer = matchQuestion(question, definition);
   if (answer) {
