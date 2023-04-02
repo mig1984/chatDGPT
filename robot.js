@@ -149,7 +149,7 @@ function suffixAnswer(answer) {
 }
 
 function robot(question) {
-  question = question.toLowerCase()
+  question = question.toLowerCase().normalize("NFD");
   question = removeDiacritics(question);
   question = question.replace(/[.?,;!:]/, ' ')
   origQuestion = question
@@ -166,6 +166,7 @@ function robot(question) {
     answer = prefixAnswer(origQuestion, answer)
   }
   answer = suffixAnswer(answer)
+  answer = answer.replace(/\s+/, ' ')
   return answer;
 }
 
