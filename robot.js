@@ -121,7 +121,7 @@ function robot(question) {
   question = ' ' + question + ' '
   let answer = matchQuestion(question, definition);
   if (answer) {
-    alert(question)
+    alert(question=='eee')
     if (question!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
