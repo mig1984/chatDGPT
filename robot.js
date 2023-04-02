@@ -8,12 +8,15 @@ Dobry den, jsem umela demence nove generace.
 const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved:
 Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
-Omlouvam se, ale nejsem si jiste,
+Omlouvame se, ale nejsme si jiste,
 Ovsem,
+Ovsem, zde je odpoved na vasi otazku QUE,
 Samozrejme,
+Samozrejme zde je odpoved na vasi otazku QUE,
 Jiste.
-Pardon,
-Velice se omlouvam, vec je slozita,
+Jiste, zde je odpoved na vasi otazku QUE,
+Pardon, vec je slozitejsi nez to vypada,
+Velice se omlouvame, vec je slozita,
 `.trim().split('\n')
 
 const suffixes = `
@@ -35,7 +38,7 @@ Byl detekovan nevhodny obsah. Zkuste polozit jinou, mene utocnou otazku. Treba o
 Bohuzel neznam odpoved.
 Bohuzel neznam odpoved. Zkuste otazku formulovat jinak.
 Omlouvame se, ale nezname odpoved.
-Velice se omlouvame, ale nejsem schopno zodpovedet vas dotaz.
+Velice se omlouvame, ale nejsme schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
@@ -49,7 +52,7 @@ ano: Ne SUB.|Ano SUB.
 ne: Ne SUB.|Ano SUB.
 debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
-co+dela: To nevim, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
+co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
 jak: Nijak.|Nejak.|To nelze presne rici.
