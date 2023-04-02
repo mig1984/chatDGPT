@@ -56,6 +56,7 @@
           submitButton.disabled = false
           if (event.keyCode === 13 && !event.shiftKey) {
             event.preventDefault()
+            localStorage.setItem('question', ta.value)
             event.target.form.submit()
           }
         }
