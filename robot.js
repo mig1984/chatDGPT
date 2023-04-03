@@ -78,7 +78,8 @@ kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Market
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
 nemyslim: My take nemyslime, ackoli se to neda prokazat. A co Pekarova-Adamova?
 kdo(pak)?+jsi: Jsem umela demence cvicena na otazky ohledne zivota Markety Pekarove-Adamove.|Jsem umela demence.
-kdo: Kdo SUB?|Marketa Pekarova-Adamova.|Pravdepodobne Marketa Pekarova-Adamova.|SUB ??????
+kdo+je: Marketa Pekarova-Adamova. Pravdepodobne ji znate.|Marketa Pekarova-Adamova.|Pravdepodobne ji znate.
+kdo: Kdo SUB?|Marketa Pekarova-Adamova.|Pravdepodobne Marketa Pekarova-Adamova.
 kter([^\s]): Zadn$1 SUB.|Perkarov$1 SUB.|Adamov$1 SUB.
 kdy: SUB Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Adamova v Tibetu.
 tibet: Ano, Tibet. Nebo Gruzie.
