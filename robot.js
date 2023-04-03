@@ -6,9 +6,9 @@ Dobry den, jsem umela demence nove generace.
 `.trim().split('\n')
 
 const prefixes = `
-Jiste. QUE? Jednoducha odpoved:
+QUE? Jednoducha odpoved:
 Na otazku QUE je jednoducha odpoved:
-Samozrejme. Pokud vas zajima QUE, pak odpoved je,
+Pokud vas zajima QUE, pak odpoved je,
 O.K., rozumim,
 O.K. Tedy
 Rozumim,
@@ -19,7 +19,10 @@ Ovsem, zde je odpoved na vasi otazku QUE,
 Samozrejme zde je odpoved na vasi otazku QUE,
 Samozrejme, QUE,
 Jiste, zde je odpoved na vasi otazku QUE,
-Ano, QUE.
+QUE?
+QUE?
+QUE?
+QUE?
 `.trim().split('\n')
 
 const suffixes = `
