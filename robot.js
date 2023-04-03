@@ -53,8 +53,8 @@ ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 vic: Tibet.
-co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+ma+rada+pekarova+eidamova: BINGO
+co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
