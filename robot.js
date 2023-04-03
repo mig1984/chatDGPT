@@ -7,7 +7,7 @@ Dobry den, jsem umela demence nove generace.
 
 const prefixes = `
 Na otazku QUE je jednoducha odpoved:
-Pokud vas zajima QUE, pak odpoved je,
+Pokud vas zajima QUE, pak odpoved je
 O.K., rozumim,
 Rozumim,
 Rozumim, QUE,
@@ -110,7 +110,6 @@ seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nek
 
 let firstTime = true;
 let lastQuestion;
-let origQuestion;
 
 const subjectsRxp = new RegExp(' (' + subjects.trim().split(/\s+/).join('|').toLowerCase() + ') ');
 
@@ -204,7 +203,7 @@ function prefixAnswer(question, answer) {
   } else {
     prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
   }
-  return prefix.replace(/QUE/, origQuestion.trim()) + ' ' + answer;
+  return prefix.replace(/QUE/, lastQuestion.trim()) + ' ' + answer;
 }
 
 function suffixAnswer(answer) {
