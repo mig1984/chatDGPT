@@ -6,7 +6,7 @@ Dobry den, jsem umela demence nove generace.
 `.trim().split('\n')
 
 const prefixes = `
-Na otazku QUE je jednoducha odpoved:
+Na otazku "QUE?" je jednoducha odpoved:
 Pokud vas zajima QUE, pak odpoved je:
 O.K., rozumim,
 Rozumim,
@@ -17,10 +17,10 @@ Rozumim.
 Rozumim. QUE,
 Ovsemze.
 Ovsemze, QUE -
-Ovsemze, zde je odpoved na vasi otazku QUE:
-Samozrejme, zde je odpoved na vasi otazku QUE:
+Ovsemze, zde je odpoved na vasi otazku "QUE?":
+Samozrejme, zde je odpoved na vasi otazku "QUE?":
 Samozrejme, QUE:
-Jisteze, zde je odpoved na vasi otazku QUE:
+Jisteze, zde je odpoved na vasi otazku "QUE?":
 QUE?
 QUE?
 QUE?
