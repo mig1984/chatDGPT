@@ -59,7 +59,8 @@ svetr prdele pici picu hajzlu let roku svetru tibet gruzie prdel pica hovno
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 
-co+ma+rada+pekarova+eidamova: BINGO
+co+ma+rada+pekarova+adamova: BINGO
+co+ma+rada: Ma rada svetry.|Ma rada cervene svetry.|Ma rada cervene vlnene svetry.
 co+rada: Svetry.|Cervene svetry.|Cervene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Adamova dela s velkou pravdepodobnosti hovno.
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
