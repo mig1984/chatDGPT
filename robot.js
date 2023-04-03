@@ -215,7 +215,7 @@ function normalizeSentence(sentence) {
   sentence = sentence.replace(/\s+/g, ' ')
   sentence = sentence.replace(/\s+([.!?])/, '$1')
   sentence = sentence.replace(/\s+,/, ',')
-  sentence = sentence.replace(/-eidam/g, '-Adam');
+  sentence = sentence.replace(/-adamo/g, '-Adamo');
 
   return sentence;
 }
