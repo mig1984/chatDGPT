@@ -66,7 +66,7 @@ jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Eidamova je prave v Gruzi
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
 jak.+svetry: Cervene svetry, pripadne modre.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
-jak([^\s]): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
+jak([^\s]): Velik$1 SUB.|Obrovsk$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
 jak+jinak: Tak jinak SUB.
 jak+prinosny: Tim, ze Marketa toho hodne prinasi.|Tim, ze Marketa je velmi prinosna.
 jak: Nejak tak SUB.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
