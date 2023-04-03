@@ -31,13 +31,13 @@ const suffixes = `
 Jak vam JESTE muzeme pomoci?
 S cim vam JESTE muzeme pomoci?
 Co vas JESTE zajima ze zivota Markety Pekarove-Adamove?
-Je to vsechno? Nebo chcete vedet, jake svetry nosi Marketa Pekarova-Adamova?
-Je to vsechno? Zkuste dotaz pripadne formulovat jinak. Muzete se zeptat treba na to, kolik svetru nosi Marketa Pekarova-Adamova.
+Je to vsechno? Nebo chcete vedet, jake JESTE svetry nosi Marketa Pekarova-Adamova?
+Je to vsechno? Zkuste dotaz pripadne formulovat JESTE jinak. Muzete se zeptat treba na to, kolik svetru nosi Marketa Pekarova-Adamova.
 Je to takto v poradku?
-Je to takto v poradku? Nebo byste radi vedeli vic o zivote Markety Pekarove-Adamove?
+Je to takto v poradku? Nebo byste radi vedeli JESTE vic o zivote Markety Pekarove-Adamove?
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
 Staci to takto? Muzete se pripadne zeptat i na dalsi dotazy ohledne Markety Pekarove-Adamove. Treba jak hodne je prinosna.
-Staci to takto? Nebo byste radi vedeli vic o zivote Markety Pekarove-Adamove?
+Staci to takto? Nebo byste radi vedeli JESTE vic o zivote Markety Pekarove-Adamove?
 Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Adamova, a tak podobne.
 Mame to JESTE specifikovat?
 Mame to JESTE vice specifikovat?
