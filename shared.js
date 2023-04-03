@@ -23,7 +23,7 @@ function toggleMode() {
 
 
 function mainThings(x) {
-   // allow scroll
+   // allow scrollbar
    div = x.qs('*[class*=react-scroll]').closest('div.overflow-hidden')
    div.classList.remove('overflow-hidden')
    div.style='overflow:auto'
