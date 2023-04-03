@@ -27,26 +27,26 @@ QUE?
 const suffixes = `
 Jak vam JESTE muzeme pomoci?
 S cim vam JESTE muzeme pomoci?
-Co vas JESTE zajima ze zivota Markety Pekarove-Eidamove?
+Co vas JESTE zajima ze zivota Markety Pekarove-Adamove?
 Je to vsechno? 
 Je to vsechno? Zkuste dotaz pripadne formulovat jinak.
 Je to takto v poradku?
-Je to takto v poradku? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eidamove?
+Je to takto v poradku? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Adamove?
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
 Staci to takto? 
-Staci to takto? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eidamove?
-Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Eidamova, a tak podobne.
+Staci to takto? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Adamove?
+Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Adamova, a tak podobne.
 Mame to JESTE specifikovat?
 Mame to JESTE vice specifikovat?
 `.trim().split('\n')
 
 const unknown = `
-Byl detekovan nevhodny obsah. Zkuste polozit jinou, mene utocnou otazku. Treba ohledne Markety Pekarove-Eidamove.
+Byl detekovan nevhodny obsah. Zkuste polozit jinou, mene utocnou otazku. Treba ohledne Markety Pekarove-Adamove.
 Bohuzel nezname odpoved, zkuste prosime formulovat dotaz cesky.
 Bohuzel nezname odpoved. Zkuste otazku formulovat jinak a cesky.
 Omlouvame se, ale nezname odpoved. Prosime napiste dotaz cesky.
 Velice se omlouvame, ale nejsme schopno zodpovedet vas dotaz. Prosime napiste ho cesky.
-Tato otazka se netyka Markety Pekarove-Eidamove.
+Tato otazka se netyka Markety Pekarove-Adamove.
 `.trim().split('\n')
 
 const subjects = ` 
@@ -58,12 +58,12 @@ eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 
 co+ma+rada+pekarova+eidamova: BINGO
 co+rada: Svetry.|Cervene svetry.|Cervene vlnene svetry.
-co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
+co+dela: To presne nevime, ale Marketa Pekarova-Adamova dela s velkou pravdepodobnosti hovno.
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
-co|coze: Co SUB? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
-j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
-jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Eidamova je prave v Gruzii.
-jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
+co|coze: Co SUB? Myslite tim co dela Marketa Pekarova-Adamova v Gruzii?
+j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Adamove.
+jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Adamova je prave v Gruzii.
+jaky+tibet: Tibet ve kterem je Marketa Pekarova-Adamova.
 jak.+svetry: Cervene svetry, pripadne modre.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 jak([^\s]): Velik$1 SUB.|Obrovsk$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
@@ -74,28 +74,28 @@ kde: SUB V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
-kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.|Tricet tri SUB.
+kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Adamove.|Tricet tri SUB.
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
-nemyslim: My take nemyslime, ackoli se to neda prokazat. A co Pekarova-Eidamova?
-kdo(pak)?+jsi: Jsem umela demence cvicena na otazky ohledne zivota Markety Pekarove-Eidamove.|Jsem umela demence.
-kdo: Kdo SUB?|Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.|SUB ??????
-kter([^\s]): Zadn$1 SUB.|Perkarov$1 SUB.|Eidamov$1 SUB.
-kdy: SUB Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
+nemyslim: My take nemyslime, ackoli se to neda prokazat. A co Pekarova-Adamova?
+kdo(pak)?+jsi: Jsem umela demence cvicena na otazky ohledne zivota Markety Pekarove-Adamove.|Jsem umela demence.
+kdo: Kdo SUB?|Marketa Pekarova-Adamova.|Pravdepodobne Marketa Pekarova-Adamova.|SUB ??????
+kter([^\s]): Zadn$1 SUB.|Perkarov$1 SUB.|Adamov$1 SUB.
+kdy: SUB Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Adamova v Tibetu.
 tibet: Ano, Tibet. Nebo Gruzie.
 gruzie: Nebo tak, Gruzie. Tibet. Je tam zima.
-proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.|Protoze Marketa Pekarova-Eidamova nosi dva svetry.|Protoze SUB.
-s nicim|nic: Dobre. Co by vas tedy jeste zajimalo ze zivota Markety Pekarove-Eidamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Eidamove?|Ale preci zivot Markety Pekarove-Eidamove je tak prinosny!
-staci|nestaci: OK. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
+proc: Protoze Marketa Pekarova-Adamova je v Tibetu.|Protoze Marketa Pekarova-Adamova je v Gruzii.|Protoze Marketa Pekarova-Adamova nosi dva svetry.|Protoze SUB.
+s nicim|nic: Dobre. Co by vas tedy jeste zajimalo ze zivota Markety Pekarove-Adamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Adamove?|Ale preci zivot Markety Pekarove-Adamove je tak prinosny!
+staci|nestaci: OK. Muzete se dal ptat na tema Markety Pekarove-Adamove.
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
-ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Eidamove je velmi prinosny.
+ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Adamove je velmi prinosny.
 vic: Tibet.|Vic SUB.|Vic Tibetu.
 svetry: Cervene svetry.|Ano, cervene svetry. Letela pro ne do Tibetu.|Dva cervene svetry.
 ano|jo: Ne SUB.|Ano SUB.|Co ano?
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 ahoj|cau|dobry den: Dobry den.
 cesky: Ano, jsem umela demence, neznam jine jazyky.
-vsechno|nezajima: To je ale velika skoda. Zivot Markety Pekarove-Eidamove je tak plodny.|To je ale velika skoda.
+vsechno|nezajima: To je ale velika skoda. Zivot Markety Pekarove-Adamove je tak plodny.|To je ale velika skoda.
 seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 (hovno|prdel|kokot): $1, svata pravda. 
@@ -215,7 +215,7 @@ function normalizeSentence(sentence) {
   sentence = sentence.replace(/\s+/g, ' ')
   sentence = sentence.replace(/\s+([.!?])/, '$1')
   sentence = sentence.replace(/\s+,/, ',')
-  sentence = sentence.replace(/-eidam/g, '-Eidam');
+  sentence = sentence.replace(/-eidam/g, '-Adam');
 
   return sentence;
 }

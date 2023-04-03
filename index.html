@@ -24,9 +24,9 @@
         x.qs('h1').innerHTML = 'ChatDGPT'
 
         items = [
-          'Je Pekarová-Eidamová v Tibetu?',
+          'Je Pekarová-Adamová v Tibetu?',
           'Kolik svetrů mám dnes nosit?',
-          'Co dnes dělá Pekarová-Eidamová?',
+          'Co dnes dělá Pekarová-Adamová?',
         ]
         x.each('ul>button', el=>{
           let str = items.shift();
@@ -35,12 +35,12 @@
         })
 
         items = [
-          "Umí diskutovat pouze o Pekarové-Eidamové",
+          "Umí diskutovat pouze o Pekarové-Adamové",
           "Umí diskutovat pouze v češtině",
-          'Umí diskutovat pouze v češtině o Pekarové-Eidamové',
-          "Umí diskutovat pouze o Pekarové-Eidamové",
+          'Umí diskutovat pouze v češtině o Pekarové-Adamové',
+          "Umí diskutovat pouze o Pekarové-Adamové",
           "Umí diskutovat pouze v češtině",
-          'Umí diskutovat pouze v češtině o Pekarové-Eidamové',
+          'Umí diskutovat pouze v češtině o Pekarové-Adamové',
         ]
         x.each('li', el=>el.innerHTML=items.shift() )
 
