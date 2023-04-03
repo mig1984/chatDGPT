@@ -75,7 +75,7 @@ jak+jinak: Tak jinak SUB.
 jak+prinosny: Tim, ze Marketa toho hodne prinasi.|Tim, ze Marketa je velmi prinosna.
 jak+prinosna: Hodne prinosna.|Velmi hodne prinosna.|Tak hodne prinosna, ze uz to vic ani nejde.
 jak: Nejak tak SUB.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
-kde: SUB V Tibetu nebo Gruzii.
+kde: Kde? SUB V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
