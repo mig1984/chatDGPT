@@ -31,12 +31,12 @@ const suffixes = `
 Jak vam JESTE muzeme pomoci?
 S cim vam JESTE muzeme pomoci?
 Co vas JESTE zajima ze zivota Markety Pekarove-Adamove?
-Je to vsechno? 
-Je to vsechno? Zkuste dotaz pripadne formulovat jinak.
+Je to vsechno? Nebo chcete vedet, jake svetry nosi Marketa Pekarova-Adamova?
+Je to vsechno? Zkuste dotaz pripadne formulovat jinak. Muzete se zeptat treba na to, kolik svetru nosi Marketa Pekarova-Adamova.
 Je to takto v poradku?
 Je to takto v poradku? Nebo byste radi vedeli vic o zivote Markety Pekarove-Adamove?
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
-Staci to takto? 
+Staci to takto? Muzete se pripadne zeptat i na dalsi dotazy ohledne Markety Pekarove-Adamove. Treba jak hodne je prinosna.
 Staci to takto? Nebo byste radi vedeli vic o zivote Markety Pekarove-Adamove?
 Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Adamova, a tak podobne.
 Mame to JESTE specifikovat?
@@ -73,6 +73,7 @@ jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chor
 jak([^\s]): Velik$1 SUB.|Obrovsk$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
 jak+jinak: Tak jinak SUB.
 jak+prinosny: Tim, ze Marketa toho hodne prinasi.|Tim, ze Marketa je velmi prinosna.
+jak+prinosna: Hodne prinosna.|Velmi hodne prinosna.|Tak hodne prinosna, ze uz to vic ani nejde.
 jak: Nejak tak SUB.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
 kde: SUB V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
