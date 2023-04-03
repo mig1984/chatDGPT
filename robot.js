@@ -52,25 +52,24 @@ ano|jo: Ne SUB.|Ano SUB.|Co ano?
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
-vic: Tibet.
+
 co+ma+rada+pekarova+eidamova: BINGO
 co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
-co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
+co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
-jak: Nijak.|Nejak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
-jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
 jak+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
+jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
+jak: Nijak.|Nejak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
 kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
-
 kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
@@ -79,6 +78,7 @@ proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Ei
 s nicim|nic: Dobre. A co by vas jeste zajimalo ze zivota Markety Pekarove-Eidamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Eidamove?
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
+vic: Tibet.
 
 (hovno|prdel|kokot): $1, svata pravda. 
 
