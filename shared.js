@@ -23,6 +23,11 @@ function toggleMode() {
 
 
 function mainThings(x) {
+   // allow scroll
+   div = x.qs('*[class*=react-scroll]').closest('div.overflow-hidden')
+   div.classList.remove('overflow-hidden')
+   div.style='overflow:auto'
+
    x.qsa('a').withText('ChatGPT Mar 14 Version', txt=> {
       txt.textContent = 'ChatDGPT Nightly Nightmare Version'
       txt.parentNode.href = 'https://github.com/mig1984/chatDGPT'
