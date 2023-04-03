@@ -47,11 +47,6 @@ pocasi clovek ai inteligence demence svetr prdele pici picu hajzlu let roku svet
 
 const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
-ahoj|cau|dobry den: Dobry den.
-ano|jo: Ne SUB.|Ano SUB.|Co ano?
-ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
-seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
-
 
 co+ma+rada+pekarova+eidamova: BINGO
 co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
@@ -70,19 +65,25 @@ nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
 kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
-kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
+kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
 kdy: Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
+tibetem: Jak Tibetem? Snad Gruzii?
+gruzii: Jak Gruzii? Snad Tibetem?
 proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.
 s nicim|nic: Dobre. A co by vas jeste zajimalo ze zivota Markety Pekarove-Eidamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Eidamove?
+staci|nestaci: Tak to je dobre. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 vic: Tibet.
+ano|jo: Ne SUB.|Ano SUB.|Co ano?
+ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
+ahoj|cau|dobry den: Dobry den.
+seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 (hovno|prdel|kokot): $1, svata pravda. 
 
-staci|nestaci: Tak to je dobre. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
 `;
 
 
