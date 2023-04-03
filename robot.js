@@ -54,6 +54,7 @@ seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nek
 
 vic: Tibet.
 co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
+co+ma+rada+pekarova+eidamova: BINGO
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
@@ -215,6 +216,10 @@ function robot(question) {
   console.log(question)
   let answer = matchQuestion(question, definition);
   if (answer) {
+    if (answer.match(/BINGO/)) {
+      alert('Vyhral jste. Bingo! Jste volny z tohoto sveta, muzete se odhlasit...')
+      window.location = ' '
+    }
     if (origQuestion.trim()!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
