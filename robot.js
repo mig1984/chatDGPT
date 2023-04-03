@@ -218,9 +218,9 @@ function normalizeSentence(sentence) {
   sentence = sentence.replace(/\s+/g, ' ')
   sentence = sentence.replace(/\s+([.!?])/, '$1')
   sentence = sentence.replace(/\s+,/, ',')
-  sentence = sentence.replace(/marketa/g, 'Marketa');
-  sentence = sentence.replace(/pekarova/g, 'Pekarova');
-  sentence = sentence.replace(/adamova/g, 'Adamova');
+  sentence = sentence.replace(/market/g, 'Market');
+  sentence = sentence.replace(/pekarov/g, 'Pekarov');
+  sentence = sentence.replace(/adamov/g, 'Adamov');
 
   return sentence;
 }
