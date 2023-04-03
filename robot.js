@@ -50,7 +50,7 @@ Tato otazka se netyka Markety Pekarove-Eidamove.
 `.trim().split('\n')
 
 const subjects = ` 
-svetr prdele pici picu hajzlu let roku svetru tibet gruzie prdel pica
+svetr prdele pici picu hajzlu let roku svetru tibet gruzie prdel pica hovno
 `
 
 const definitionString = `
