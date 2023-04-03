@@ -6,8 +6,13 @@ Dobry den, jsem umela demence nove generace.
 `.trim().split('\n')
 
 const prefixes = `
-Jiste. Na otazku QUE je jednoducha odpoved:
-Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
+Jiste. QUE? Jednoducha odpoved:
+Na otazku QUE je jednoducha odpoved:
+Samozrejme. Pokud vas zajima QUE, pak odpoved je,
+O.K., rozumim,
+O.K. Tedy
+Rozumim,
+Rozumim, QUE, 
 Ovsem,
 Ovsem, QUE -
 Ovsem, zde je odpoved na vasi otazku QUE,
@@ -53,33 +58,32 @@ co+ma+rada+pekarova+eidamova: BINGO
 co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
-co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
+co|coze: Co SUB? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Eidamova je prave v Gruzii.
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
 jak.+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
-jak+jinak: Tak jinak.
+jak+jinak: Tak jinak SUB.
 jak+prinosny: Tim, ze Marketa toho hodne prinasi.|Tim, ze Marketa je velmi prinosna.
-jak: Nejak tak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
-kde: V Tibetu nebo Gruzii.
+jak: Nejak tak SUB.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
+kde: SUB V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
-kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.
+kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.|Tricet tri SUB.
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
-nemyslim: My take nemyslime, ackoli se to neda prokazat. A co ta Pekarova-Eidamova?
-kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
-kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.|SUB ??????
-kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
-kdy: Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
-tibetem: Jak Tibetem? Snad Gruzii? Je tam zima na tři svetry.
+nemyslim: My take nemyslime, ackoli se to neda prokazat. A co Pekarova-Eidamova?
+kdo(pak)?+jsi: Jsem umela demence cvicena na otazky ohledne zivota Markety Pekarove-Eidamove.|Jsem umela demence.
+kdo: Kdo SUB?|Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.|SUB ??????
+kter(.): Zadn$1 SUB.|Perkarov$1 SUB.|Eidamov$1 SUB.
+kdy: SUB Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
 tibet: Ano, Tibet. Nebo Gruzie.
-gruzie: Nebo Gruzie. Ano, Tibet. Je tam zima na vic svetru.
-proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.|Protoze Marketa Pekarova-Eidamova nosi dva svetry.
-s nicim|nic: Dobre. A co by vas jeste zajimalo ze zivota Markety Pekarove-Eidamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Eidamove?
-staci|nestaci: Tak to je dobre. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
+gruzie: Nebo tak, Gruzie. Tibet. Je tam zima.
+proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.|Protoze Marketa Pekarova-Eidamova nosi dva svetry.|Protoze SUB.
+s nicim|nic: Dobre. Co by vas tedy jeste zajimalo ze zivota Markety Pekarove-Eidamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Eidamove?|Ale preci zivot Markety Pekarove-Eidamove je tak prinosny!
+staci|nestaci: OK. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Eidamove je velmi prinosny.
