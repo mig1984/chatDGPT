@@ -53,7 +53,7 @@ Tato otazka se netyka Markety Pekarove-Adamove.
 `.trim().split('\n')
 
 const subjects = ` 
-svetr prdele pici picu hajzlu let roku svetru tibet gruzie prdel pica hovno krava
+svetr prdele pici picu hajzlu let roku svetru tibet tchajwan prdel pica hovno krava
 `
 
 const definitionString = `
@@ -64,9 +64,9 @@ co+ma+rada: Ma rada svetry.|Ma rada cervene svetry.|Ma rada cervene vlnene svetr
 co+rada: Svetry.|Cervene svetry.|Cervene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Adamova dela s velkou pravdepodobnosti hovno.
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
-co|coze: Co SUB? Myslite tim co dela Marketa Pekarova-Adamova v Gruzii?
+co|coze: Co SUB? Myslite tim co dela Marketa Pekarova-Adamova na Tchajwanu?
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Adamove.
-jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Adamova je prave v Gruzii.
+jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Adamova je prave na Tchajwanu.
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Adamova.
 jak.+svetry: Cervene svetry, pripadne modre.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
@@ -75,7 +75,8 @@ jak+jinak: Tak jinak SUB.
 jak+prinosny: Tim, ze Marketa toho hodne prinasi.|Tim, ze Marketa je velmi prinosna.
 jak+prinosna: Hodne prinosna.|Velmi hodne prinosna.|Tak hodne prinosna, ze uz to vic ani nejde.
 jak: Nejak tak SUB.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
-kde: Kde? SUB V Tibetu nebo Gruzii.
+kde+je: Kde je? SUB V Tibetu nebo na Tchajwanu.
+kde: Kde? SUB V Tibetu nebo na Tchajwanu.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
@@ -87,13 +88,13 @@ kdo+je: Kdo? Marketa Pekarova-Adamova. Pravdepodobne ji znate.|Kdo? Marketa Peka
 kdo: Kdo SUB?|Marketa SUB Pekarova-Adamova.|Pravdepodobne Marketa Pekarova-Adamova.
 kter([^\s]): Zadn$1 SUB.|Perkarov$1 SUB.|Adamov$1 SUB.
 kdy: SUB Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Adamova v Tibetu.
-tibet: Ano, Tibet. Nebo Gruzie.
-gruzie: Nebo tak, Gruzie. Tibet. Je tam zima.
-proc: Protoze Marketa Pekarova-Adamova je v Tibetu.|Protoze Marketa Pekarova-Adamova je v Gruzii.|Protoze Marketa Pekarova-Adamova nosi dva svetry.|Protoze SUB.
+tibet: Ano, Tibet. Nebo Tchajwan.
+tchajwan: Nebo tak, Tchajwan. Tibet. Je tam zima.
+proc: Protoze Marketa Pekarova-Adamova je v Tibetu.|Protoze Marketa Pekarova-Adamova je na Tchajwanu.|Protoze Marketa Pekarova-Adamova nosi dva svetry.|Protoze SUB.
 s nicim|nic: Dobre. Co by vas tedy jeste zajimalo ze zivota Markety Pekarove-Adamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Adamove?|Ale preci zivot Markety Pekarove-Adamove je tak prinosny!
 staci|nestaci: OK. Muzete se dal ptat na tema Markety Pekarove-Adamove.
-v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
-v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
+v+tibetu: Ano, v Tibetu.|Ne, na Tchajwanu.
+na+tchajwanu: Ano, na Tchajwanu.|Ne, v Tibetu.
 ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Adamove je velmi prinosny.|Jiste, ze zivota.
 o+zivote: Jiste, o zivote. Zivot Markety Pekarove-Adamove je velmi prinosny.|Jiste, o zivote. 
 vic: Tibet.|Vic SUB.|Vic Tibetu.
