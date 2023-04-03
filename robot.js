@@ -13,9 +13,9 @@ Rozumim,
 Rozumim, QUE,
 Jasne, rozumim,
 Jasne, rozumim,
-Rozumim,
-Rozumim, QUE,
-Ovsemze,
+Rozumim.
+Rozumim. QUE,
+Ovsemze.
 Ovsemze, QUE -
 Ovsemze, zde je odpoved na vasi otazku QUE:
 Samozrejme, zde je odpoved na vasi otazku QUE:
