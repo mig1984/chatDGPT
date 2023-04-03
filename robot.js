@@ -58,6 +58,7 @@ jak.+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
 jak+jinak: Tak jinak.
+jak+prinosny: Tim, ze Marketa toho hodne prinasi.|Tim, ze Marketa je velmi prinosna.
 jak: Nejak tak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
 kde: V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
