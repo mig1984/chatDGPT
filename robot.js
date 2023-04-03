@@ -67,7 +67,7 @@ jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Eidamova je prave v Gruzi
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
 jak.+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
-jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
+jak([^\s]): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
 jak+jinak: Tak jinak SUB.
 jak+prinosny: Tim, ze Marketa toho hodne prinasi.|Tim, ze Marketa je velmi prinosna.
 jak: Nejak tak SUB.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
@@ -80,7 +80,7 @@ ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
 nemyslim: My take nemyslime, ackoli se to neda prokazat. A co Pekarova-Eidamova?
 kdo(pak)?+jsi: Jsem umela demence cvicena na otazky ohledne zivota Markety Pekarove-Eidamove.|Jsem umela demence.
 kdo: Kdo SUB?|Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.|SUB ??????
-kter(.): Zadn$1 SUB.|Perkarov$1 SUB.|Eidamov$1 SUB.
+kter([^\s]): Zadn$1 SUB.|Perkarov$1 SUB.|Eidamov$1 SUB.
 kdy: SUB Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
 tibet: Ano, Tibet. Nebo Gruzie.
 gruzie: Nebo tak, Gruzie. Tibet. Je tam zima.
