@@ -229,7 +229,7 @@ function robot(question) {
   let answer = matchQuestion(question, definition);
   if (answer) {
     if (answer.match(/BINGO/)) {
-      alert('Vyhral jste. Bingo! Jste volny z tohoto sveta, muzete se odhlasit...')
+      alert('Mila bytosti, vyhralo jste. Bingo! Jste volne z tohoto sveta, muzete se nyni v klidu odhlasit...')
       window.location = '/'
     }
     if (origQuestion.trim()!='eee')
