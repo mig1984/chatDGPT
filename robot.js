@@ -94,7 +94,7 @@ svetry: Cervene svetry.|Ano, cervene svetry. Letela pro ne do Tibetu.|Dva cerven
 ano|jo: Ne SUB.|Ano SUB.|Co ano?
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 ahoj|cau|dobry den: Dobry den.
-nezajima: To je ale velika skoda. Zivot Markety Pekarove-Eidamove je tak plodny.|To je ale velika skoda.
+vsechno|nezajima: To je ale velika skoda. Zivot Markety Pekarove-Eidamove je tak plodny.|To je ale velika skoda.
 seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 (hovno|prdel|kokot): $1, svata pravda. 
