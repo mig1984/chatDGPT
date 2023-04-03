@@ -217,17 +217,16 @@ function suffixAnswer(answer) {
 }
 
 function normalizeSentence(sentence) {
-  sentence = sentence.replace(/([,:-]\s*)([A-Z])/g, (match, p1, p2) => `${p1}${p2.toLowerCase()}`);
-  sentence = sentence.replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
-  sentence = sentence.replace(/^\s*([a-z])/g, (match, p1, p2) => `${p1.toUpperCase()}`);
-  sentence = sentence.replace(/\s+/g, ' ')
-  sentence = sentence.replace(/\s+([.!?])/, '$1')
-  sentence = sentence.replace(/\s+,/, ',')
-  sentence = sentence.replace(/market/g, 'Market');
-  sentence = sentence.replace(/pekarov/g, 'Pekarov');
-  sentence = sentence.replace(/adamov/g, 'Adamov');
-
-  return sentence;
+  return sentence
+     .replace(/([,:-]\s*)([A-Z])/g, (match, p1, p2) => `${p1}${p2.toLowerCase()}`);
+     .replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
+     .replace(/^\s*([a-z])/g, (match, p1, p2) => `${p1.toUpperCase()}`);
+     .replace(/\s+/g, ' ')
+     .replace(/\s+([.!?])/, '$1')
+     .replace(/\s+,/, ',')
+     .replace(/market/g, 'Market');
+     .replace(/pekarov/g, 'Pekarov');
+     .replace(/adamov/g, 'Adamov');
 }
 
 function robot(question) {
