@@ -54,7 +54,7 @@ co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepod
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
 co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
-jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
+jak+to: Takto.|Jak to? Takto: Marketa Pekarova-Eidamova je prave v Gruzii.
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
 jak+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
