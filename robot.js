@@ -28,7 +28,7 @@ Je to takto v poradku? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eid
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
 Staci to takto? 
 Staci to takto? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eidamove?
-Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada Marketa Pekarova-Eidamova.
+Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Eidamova, atp.
 Mame to JESTE specifikovat?
 Mame to JESTE vice specifikovat?
 `.trim().split('\n')
