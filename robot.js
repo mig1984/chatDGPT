@@ -79,6 +79,7 @@ staci|nestaci: Tak to je dobre. Muzete se dal ptat na tema Markety Pekarove-Eida
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 vic: Tibet.|Vic SUB.|Vic Tibetu.
+ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Eidamove je velmi prinosny.
 ano|jo: Ne SUB.|Ano SUB.|Co ano?
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 ahoj|cau|dobry den: Dobry den.
