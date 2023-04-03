@@ -11,7 +11,7 @@ Na otazku QUE je jednoducha odpoved:
 Pokud vas zajima QUE, pak odpoved je,
 O.K., rozumim,
 Rozumim,
-Rozumim, QUE, 
+Rozumim, QUE,
 Ovsem,
 Ovsem, QUE -
 Ovsem, zde je odpoved na vasi otazku QUE,
@@ -207,7 +207,7 @@ function suffixAnswer(answer) {
 
 function normalizeSentence(sentence) {
   sentence = sentence.replace(/,\s*([A-Z])/g, (match, p1) => `, ${p1.toLowerCase()}`);
-  sentence = sentence.replace(/-\s*([A-Z])/g, (match, p1, p2) => `${p1.toLowerCase()}`);
+  sentence = sentence.replace(/(-\s*)([A-Z])/g, (match, p1, p2) => `${p1}${p2.toLowerCase()}`);
   sentence = sentence.replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
   sentence = sentence.replace(/^\s*([a-z])/g, (match, p1, p2) => `${p1.toUpperCase()}`);
   sentence = sentence.replace(/\s+/g, ' ')
