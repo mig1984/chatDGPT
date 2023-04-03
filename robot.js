@@ -9,8 +9,10 @@ const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved:
 Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
 Ovsem,
+Ovsem, QUE
 Ovsem, zde je odpoved na vasi otazku QUE,
 Samozrejme zde je odpoved na vasi otazku QUE,
+Samozrejme, QUE, 
 Jiste, zde je odpoved na vasi otazku QUE,
 Ano, QUE.
 `.trim().split('\n')
@@ -37,10 +39,11 @@ Bohuzel nezname odpoved.
 Bohuzel nezname odpoved. Zkuste otazku formulovat jinak.
 Omlouvame se, ale nezname odpoved.
 Velice se omlouvame, ale nejsme schopno zodpovedet vas dotaz.
+Tato otazka se netyka Markety Pekarove-Eidamove.
 `.trim().split('\n')
 
 const subjects = ` 
-svetr prdele pici picu hajzlu let roku svetru tibet gruzie dalajlama
+svetr prdele pici picu hajzlu let roku svetru tibet gruzie prdel pica
 `
 
 const definitionString = `
@@ -228,7 +231,7 @@ function robot(question) {
     if (origQuestion.trim()!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
-    if (origQuestion.trim()!='eee' && !firstTime)
+    if (origQuestion.trim()!='eee')
       answer = suffixAnswer(answer)
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
