@@ -90,6 +90,7 @@ v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Eidamove je velmi prinosny.
 vic: Tibet.|Vic SUB.|Vic Tibetu.
+svetry: Cervene svetry.|Ano, cervene svetry. Letela pro ne do Tibetu.|Dva cervene svetry.
 ano|jo: Ne SUB.|Ano SUB.|Co ano?
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 ahoj|cau|dobry den: Dobry den.
