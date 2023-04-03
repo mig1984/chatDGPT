@@ -58,14 +58,14 @@ const definitionString = `
 eee: Eeeeeeeee.|Eeee.|EEEE?|eeeeEE?|EE.
 
 co+ma+rada+pekarova+eidamova: BINGO
-co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
+co+rada: Svetry.|Cervene svetry.|Cervene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
 co|coze: Co SUB? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Eidamova je prave v Gruzii.
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
-jak.+svetry: Zelene svetry, pripadne kostkovane.
+jak.+svetry: Cervene svetry, pripadne modre.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 jak([^\s]): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
 jak+jinak: Tak jinak SUB.
