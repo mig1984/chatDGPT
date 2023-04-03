@@ -65,6 +65,7 @@ nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
 kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Markete Pekarove-Eidamove.
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
+nemyslim: My take nemyslime, ackoli se to neda prokazat. A co ta Pekarova-Eidamova?
 kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
 kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
