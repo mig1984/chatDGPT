@@ -30,10 +30,10 @@ Co vas JESTE zajima ze zivota Markety Pekarove-Adamove?
 Je to vsechno? 
 Je to vsechno? Zkuste dotaz pripadne formulovat jinak.
 Je to takto v poradku?
-Je to takto v poradku? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Adamove?
+Je to takto v poradku? Nebo byste radi vedeli vic o zivote Markety Pekarove-Adamove?
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
 Staci to takto? 
-Staci to takto? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Adamove?
+Staci to takto? Nebo byste radi vedeli vic o zivote Markety Pekarove-Adamove?
 Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Adamova, a tak podobne.
 Mame to JESTE specifikovat?
 Mame to JESTE vice specifikovat?
@@ -88,7 +88,8 @@ s nicim|nic: Dobre. Co by vas tedy jeste zajimalo ze zivota Markety Pekarove-Ada
 staci|nestaci: OK. Muzete se dal ptat na tema Markety Pekarove-Adamove.
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
-ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Adamove je velmi prinosny.
+ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Adamove je velmi prinosny.|Jiste, ze zivota.
+o+zivote: Jiste, o zivote. Zivot Markety Pekarove-Adamove je velmi prinosny.|Jiste, o zivote. 
 vic: Tibet.|Vic SUB.|Vic Tibetu.
 svetry: Cervene svetry.|Ano, cervene svetry. Letela pro ne do Tibetu.|Dva cervene svetry.
 ano|jo: Ne SUB.|Ano SUB.|Co ano?
