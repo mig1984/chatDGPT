@@ -53,7 +53,7 @@ Tato otazka se netyka Markety Pekarove-Adamove.
 `.trim().split('\n')
 
 const subjects = ` 
-svetr prdele pici picu hajzlu let roku svetru tibet gruzie prdel pica hovno
+svetr prdele pici picu hajzlu let roku svetru tibet gruzie prdel pica hovno krava
 `
 
 const definitionString = `
@@ -108,7 +108,7 @@ s: Tak s tim vam bohuzel nejsme schopni pomoci. Omlouvame se.|Tak s tim vam bohu
 znas|znate: Zname ciste teoreticky, nase databaze je omezena.|Zname ciste teoreticky.
 seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
-(hovno|prdel|kokot): $1, svata pravda. 
+(hovno|prdel|kokot|krava|pica|mrdat|vysrat): $1, svata pravda.
 
 `;
 
