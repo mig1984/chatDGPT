@@ -218,7 +218,7 @@ function robot(question) {
   if (answer) {
     if (answer.match(/BINGO/)) {
       alert('Vyhral jste. Bingo! Jste volny z tohoto sveta, muzete se odhlasit...')
-      window.location = ' '
+      window.location = '/'
     }
     if (origQuestion.trim()!='eee')
       answer = prefixAnswer(origQuestion, answer)
