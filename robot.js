@@ -213,6 +213,7 @@ function normalizeSentence(sentence) {
   sentence = sentence.replace(/\s+/g, ' ')
   sentence = sentence.replace(/\s+([.!?])/, '$1')
   sentence = sentence.replace(/\s+,/, ',')
+  sentence = sentence.replace(/-eidam/g, '-Eidam');
 
   return sentence;
 }
