@@ -98,7 +98,7 @@ o+zivote: Jiste, o zivote. Zivot Markety Pekarove-Adamove je velmi prinosny.|Jis
 vic: Tibet.|Vic SUB.|Vic Tibetu.
 radi|vedeli: Tak se tedy nevahejte zeptat.|Nevahejte se tedy zeptat.
 svetry: Cervene svetry.|Ano, cervene svetry. Letela pro ne do Tibetu.|Dva cervene svetry.
-ano|jo: Ne SUB.|Ano SUB.|Co ano?
+ano|jo|je: Ano SUB.|To je dobre.
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 ahoj|cau|dobry den: Dobry den.
 cesky: Ano, jsem umela demence, neznam jine jazyky.
