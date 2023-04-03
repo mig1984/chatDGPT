@@ -9,10 +9,10 @@ const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved:
 Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
 Ovsem,
-Ovsem, QUE,
+Ovsem, QUE -
 Ovsem, zde je odpoved na vasi otazku QUE,
 Samozrejme zde je odpoved na vasi otazku QUE,
-Samozrejme, QUE, 
+Samozrejme, QUE,
 Jiste, zde je odpoved na vasi otazku QUE,
 Ano, QUE.
 `.trim().split('\n')
@@ -204,10 +204,10 @@ function normalizeSentence(sentence) {
   sentence = sentence.replace(/,\s*([A-Z])/g, (match, p1) => `, ${p1.toLowerCase()}`);
   
   // Replace uppercase letter after period, exclamation point or question mark with lowercase letter
-  sentence = sentence.replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
+  sentence = sentence.replace(/([.!-?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
 
   sentence = sentence.replace(/\s+/g, ' ')
-  sentence = sentence.replace(/\s+([.!?])/, '$1')
+  sentence = sentence.replace(/\s+([.!-?])/, '$1')
   sentence = sentence.replace(/\s+,/, ',')
 
   return sentence;
