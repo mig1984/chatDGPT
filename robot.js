@@ -232,7 +232,7 @@ function robot(question) {
   question = question.replace(/[.?,;!:]/, ' ')
   question = ' ' + question + ' '
   origQuestion = question
-  if (question.match(/ (ano|pokracuj) /)) question = lastQuestion
+  if (question.match(/ (ano|pokracuj) /) && lastQuestion) question = lastQuestion
   lastQuestion = question  
   console.log(question)
   let answer = matchQuestion(question, definition);
