@@ -13,10 +13,10 @@ Rozumim,
 Rozumim, QUE,
 Ovsem,
 Ovsem, QUE -
-Ovsem, zde je odpoved na vasi otazku QUE,
+Ovsem, zde je odpoved na vasi otazku QUE:
 Samozrejme zde je odpoved na vasi otazku QUE:
 Samozrejme, QUE:
-Jiste, zde je odpoved na vasi otazku QUE,
+Jiste, zde je odpoved na vasi otazku QUE:
 QUE?
 QUE?
 QUE?
