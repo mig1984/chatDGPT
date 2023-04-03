@@ -7,16 +7,20 @@ Dobry den, jsem umela demence nove generace.
 
 const prefixes = `
 Na otazku QUE je jednoducha odpoved:
-Pokud vas zajima QUE, pak odpoved je
+Pokud vas zajima QUE, pak odpoved je:
 O.K., rozumim,
 Rozumim,
 Rozumim, QUE,
-Ovsem,
-Ovsem, QUE -
-Ovsem, zde je odpoved na vasi otazku QUE:
-Samozrejme zde je odpoved na vasi otazku QUE:
+Jasne, rozumim,
+Jasne, rozumim,
+Rozumim,
+Rozumim, QUE,
+Ovsemze,
+Ovsemze, QUE -
+Ovsemze, zde je odpoved na vasi otazku QUE:
+Samozrejme, zde je odpoved na vasi otazku QUE:
 Samozrejme, QUE:
-Jiste, zde je odpoved na vasi otazku QUE:
+Jisteze, zde je odpoved na vasi otazku QUE:
 QUE?
 QUE?
 QUE?
