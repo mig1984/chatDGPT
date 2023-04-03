@@ -17,10 +17,10 @@ Rozumim.
 Rozumim. QUE,
 Ovsemze.
 Ovsemze, QUE -
-Ovsemze, zde je odpoved na vasi otazku "QUE?":
-Samozrejme, zde je odpoved na vasi otazku "QUE?":
+Ovsemze, zde je odpoved na vasi otazku "QUE":
+Samozrejme, zde je odpoved na vasi otazku "QUE":
 Samozrejme, QUE:
-Jisteze, zde je odpoved na vasi otazku "QUE?":
+Jisteze, zde je odpoved na vasi otazku "QUE":
 QUE?
 QUE?
 QUE?
