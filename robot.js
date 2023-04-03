@@ -96,7 +96,7 @@ v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
 ze+zivota: Jiste, ze zivota. Zivot Markety Pekarove-Adamove je velmi prinosny.|Jiste, ze zivota.
 o+zivote: Jiste, o zivote. Zivot Markety Pekarove-Adamove je velmi prinosny.|Jiste, o zivote. 
 vic: Tibet.|Vic SUB.|Vic Tibetu.
-radi: Tak se tedy nevahejte zeptat.|Nevahejte se tedy zeptat.
+radi|vedeli: Tak se tedy nevahejte zeptat.|Nevahejte se tedy zeptat.
 svetry: Cervene svetry.|Ano, cervene svetry. Letela pro ne do Tibetu.|Dva cervene svetry.
 ano|jo: Ne SUB.|Ano SUB.|Co ano?
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
