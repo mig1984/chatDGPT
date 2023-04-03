@@ -54,12 +54,12 @@ co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepod
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
 co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
-jak+to: Takto.|Jak to? Takto: Marketa Pekarova-Eidamova je prave v Gruzii.
+jak+to: Takto SUB.|Jak to SUB? Takto: Marketa Pekarova-Eidamova je prave v Gruzii.
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
-jak+svetry: Zelene svetry, pripadne kostkovane.
+jak.+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
-jak+jinak|Tak jinak.
+jak+jinak: Tak jinak.
 jak: Nejak tak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
 kde: V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
@@ -80,7 +80,7 @@ s nicim|nic: Dobre. A co by vas jeste zajimalo ze zivota Markety Pekarove-Eidamo
 staci|nestaci: Tak to je dobre. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
 v+gruzii: Ano, v Gruzii.|Ne, v Tibetu.
-vic: Tibet.
+vic: Tibet.|Vic SUB.|Vic Tibetu.
 ano|jo: Ne SUB.|Ano SUB.|Co ano?
 ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 ahoj|cau|dobry den: Dobry den.
