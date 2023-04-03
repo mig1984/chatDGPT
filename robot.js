@@ -209,7 +209,7 @@ function suffixAnswer(answer) {
 function normalizeSentence(sentence) {
   sentence = sentence.replace(/,\s*([A-Z])/g, (match, p1) => `, ${p1.toLowerCase()}`);
   sentence = sentence.replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
-//  sentence = sentence.replace(/^\s*([a-z])/g, (match, p1, p2) => `${p1.toUpperCase()}`);
+  sentence = sentence.replace(/^\s*([a-z])/g, (match, p1, p2) => `${p1.toUpperCase()}`);
   sentence = sentence.replace(/\s+/g, ' ')
   sentence = sentence.replace(/\s+([.!-?])/, '$1')
   sentence = sentence.replace(/\s+,/, ',')
