@@ -42,7 +42,7 @@ Velice se omlouvame, ale nejsme schopno zodpovedet vas dotaz.
 `.trim().split('\n')
 
 const subjects = ` 
-pocasi clovek ai inteligence demence svetr prdele pici picu hajzlu let roku svetru
+svetr prdele pici picu hajzlu let roku svetru tibet gruzie dalajlama
 `
 
 const definitionString = `
@@ -69,7 +69,7 @@ kolik: Dva.|Pet.|Tri.|Deset SUB.|Sto padesat SUB.|Kolik SUB, to zalezi na Market
 ma: Marketa Pekarova-Eidemova samozrejme ma SUB.
 nemyslim: My take nemyslime, ackoli se to neda prokazat. A co ta Pekarova-Eidamova?
 kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa Pekarova-Eidamova.
-kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
+kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.|SUB ??????
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
 kdy: Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
 tibetem: Jak Tibetem? Snad Gruzii? Je tam zima na tři svetry.
