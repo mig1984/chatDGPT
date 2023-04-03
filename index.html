@@ -12,6 +12,11 @@
 
         x = await new SucklessView('templates/index.html').load()
 
+        let ta = x.qs('textarea')
+        let form = ta.closest('form')
+        let submitButton = form.qs('button[disabled]')
+
+
         mainThings(x)
         sideColumn(x)
 
@@ -26,7 +31,7 @@
         x.each('ul>button', el=>{
           let str = items.shift();
           el.innerHTML = '"' + str + '" →';
-          el.onclick = el.ontap = function() { x.qs('textarea').value=str; }
+          el.onclick = el.ontap = function() { x.qs('textarea').value=str; submitButton.disabled = false}
         })
 
         items = [
@@ -39,10 +44,6 @@
         ]
         x.each('li', el=>el.innerHTML=items.shift() )
 
-
-        let ta = x.qs('textarea')
-        let form = ta.closest('form')
-        let submitButton = form.qs('button[disabled]')
         form.action = 'chat.html'
 
         form.onsubmit = () => {
