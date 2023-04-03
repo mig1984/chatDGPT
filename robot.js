@@ -9,7 +9,7 @@ const prefixes = `
 Jiste. Na otazku QUE je jednoducha odpoved:
 Samozrejme. Pokud vas zajima QUE, pak odpoved je, 
 Ovsem,
-Ovsem, QUE
+Ovsem, QUE,
 Ovsem, zde je odpoved na vasi otazku QUE,
 Samozrejme zde je odpoved na vasi otazku QUE,
 Samozrejme, QUE, 
