@@ -26,7 +26,7 @@ Je to takto v poradku? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eid
 Je to takto v poradku? Pripadne zkuste dotaz formulovat jinak.
 Staci to takto? 
 Staci to takto? Nebo byste radi vedeli vic ze zivota Markety Pekarove-Eidamove?
-Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Eidamova, atp.
+Staci to takto? Pripadne zkuste dotaz formulovat jinak, kuprikladu co ma rada, co ma rada Marketa Pekarova-Eidamova, a tak podobne.
 Mame to JESTE specifikovat?
 Mame to JESTE vice specifikovat?
 `.trim().split('\n')
@@ -228,7 +228,7 @@ function robot(question) {
     if (origQuestion.trim()!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
-    if (origQuestion.trim()!='eee')
+    if (origQuestion.trim()!='eee' && !firstTime)
       answer = suffixAnswer(answer)
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
