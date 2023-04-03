@@ -227,7 +227,8 @@ function robot(question) {
     if (origQuestion.trim()!='eee')
       answer = prefixAnswer(origQuestion, answer)
     answer = replaceSubject(question, answer);
-    answer = suffixAnswer(answer)
+    if (origQuestion.trim()!='eee')
+      answer = suffixAnswer(answer)
   } else {
     answer = unknown[Math.floor(Math.random() * unknown.length)]
     answer = replaceSubject(question, answer);
