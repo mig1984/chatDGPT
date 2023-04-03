@@ -110,6 +110,7 @@ seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nek
 
 let firstTime = true;
 let lastQuestion;
+let origQuestion;
 
 const subjectsRxp = new RegExp(' (' + subjects.trim().split(/\s+/).join('|').toLowerCase() + ') ');
 
@@ -203,7 +204,7 @@ function prefixAnswer(question, answer) {
   } else {
     prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
   }
-  return prefix.replace(/QUE/, question.trim()) + ' ' + answer;
+  return prefix.replace(/QUE/, origQuestion.trim()) + ' ' + answer;
 }
 
 function suffixAnswer(answer) {
