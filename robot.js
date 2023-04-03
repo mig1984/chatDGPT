@@ -53,7 +53,6 @@ co+rada: Svetry.|Zelene svetry.|Zelene vlnene svetry.
 co+dela: To presne nevime, ale Marketa Pekarova-Eidamova dela s velkou pravdepodobnosti hovno.
 co+skoda: Skoda? Co je skoda? Ne, to neni skoda!
 co|coze: Co? Myslite tim co dela Marketa Pekarova-Eidamova v Gruzii?
-dalajlama: Ten taky nosil svetr, když byl v Tibetu.
 j?di+do: Jsem umela demence, nemohu jit do SUB. Toto tema je mimo okruh temat okolo Markety Pekarove-Eidamove.
 jak+to: Takto.|Protoze Marketa Pekarova-Eidamova je prave v Gruzii.
 jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
@@ -61,7 +60,7 @@ jak+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
 jak: Nijak.|Nejak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
-kde: V Tibetu nebo Gruzii. Jak tam byl ten Dalajlama.
+kde: V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
 nijak: To je ale velika skoda, tak hezky se s vami diskutuje.
