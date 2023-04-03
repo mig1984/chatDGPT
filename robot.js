@@ -96,6 +96,7 @@ ne: Ne SUB.|Ano SUB.|Ne? To je skoda.|Co ne?
 ahoj|cau|dobry den: Dobry den.
 cesky: Ano, jsem umela demence, neznam jine jazyky.
 vsechno|nezajima: To je ale velika skoda. Zivot Markety Pekarove-Adamove je tak plodny.|To je ale velika skoda.
+s: Tak s tim vam bohuzel nejsme schopni pomoci. Omlouvame se.|Tak s tim vam bohuzel nejsme schopni pomoci.
 seres|jsi|si|jses|ses|debile|kretene|pico|blbe: Byl detekovan obsah, ktery v nekom muze vyvolat touhu po sebevrazde. Opravdu si prejete pokracovat v teto konverzaci?
 
 (hovno|prdel|kokot): $1, svata pravda. 
