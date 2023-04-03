@@ -59,7 +59,8 @@ jaky+tibet: Tibet ve kterem je Marketa Pekarova-Eidamova.
 jak+svetry: Zelene svetry, pripadne kostkovane.
 jak+neznam: Proste tak neznam. Nemuzu znat vsechno, mam umelou alzheimerovu chorobu.
 jak(.): Dobr$1 SUB.|Spatn$1 SUB.|Velk$1 SUB. Hoooodne velk$1 SUB.
-jak: Nijak.|Nejak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
+jak+jinak|Tak jinak.
+jak: Nejak tak.|To nelze presne rici.|Hooooodne.|Hodne moc, asi jako dva fotbalove stadiony.
 kde: V Tibetu nebo Gruzii.
 bude: Nebude SUB.|Ano, bude SUB.
 nebude: Nebude SUB.|Ano, bude SUB.
