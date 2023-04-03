@@ -70,9 +70,11 @@ kdo(pak)?+jsi: Jsem alterego Markety Pekarove-Eidamove.|Jsem virtualni Marketa P
 kdo: Marketa Pekarova-Eidamova.|Pravdepodobne Marketa Pekarova-Eidamova.
 kter(.): Zadn$1.|Perkarov$1.|Eidamov$1.
 kdy: Nikdy.|To zalezi na tom, kdy bude Marketa Pekarova-Eidamova v Tibetu.
-tibetem: Jak Tibetem? Snad Gruzii?
-gruzii: Jak Gruzii? Snad Tibetem?
-proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.
+tibetem: Jak Tibetem? Snad Gruzii? Je tam zima na tři svetry.
+tibet: Ano, Tibet. Nebo Gruzie.
+gruzie: Nebo Gruzie. Ano, Tibet. Je tam zima na vic svetru.
+gruzii: Jak Gruzii? Snad Tibetem? Je tam zima na dva svetry.
+proc: Protoze Marketa Pekarova-Eidamova je v Tibetu.|Protoze Marketa Pekarova-Eidamova je v Gruzii.|Protoze Marketa Pekarova-Eidamova nosi dva svetry.
 s nicim|nic: Dobre. A co by vas jeste zajimalo ze zivota Markety Pekarove-Eidamove?|To je skoda. Opravdu vas nezajima zivot Markety Pekarove-Eidamove?
 staci|nestaci: Tak to je dobre. Muzete se dal ptat na tema Markety Pekarove-Eidamove.
 v+tibetu: Ano, v Tibetu.|Ne, v Gruzii.
