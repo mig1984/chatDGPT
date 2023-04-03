@@ -202,9 +202,9 @@ function suffixAnswer(answer) {
 function normalizeSentence(sentence) {
   // Replace lowercase letter after comma and optional space with uppercase letter
   sentence = sentence.replace(/,\s*([A-Z])/g, (match, p1) => `, ${p1.toLowerCase()}`);
-  
+
   // Replace uppercase letter after period, exclamation point or question mark with lowercase letter
-  sentence = sentence.replace(/([.!-?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
+  sentence = sentence.replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
 
   sentence = sentence.replace(/\s+/g, ' ')
   sentence = sentence.replace(/\s+([.!-?])/, '$1')
