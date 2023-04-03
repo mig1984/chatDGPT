@@ -217,15 +217,16 @@ function suffixAnswer(answer) {
 }
 
 function normalizeSentence(sentence) {
-  return sentence.replace(/([,:-]\s*)([A-Z])/g, (match, p1, p2) => `${p1}${p2.toLowerCase()}`);
-     .replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`);
-     .replace(/^\s*([a-z])/g, (match, p1, p2) => `${p1.toUpperCase()}`);
+  return sentence
+     .replace(/([,:-]\s*)([A-Z])/g, (match, p1, p2) => `${p1}${p2.toLowerCase()}`)
+     .replace(/([.!?]\s*)([a-z])/g, (match, p1, p2) => `${p1}${p2.toUpperCase()}`)
+     .replace(/^\s*([a-z])/g, (match, p1, p2) => `${p1.toUpperCase()}`)
      .replace(/\s+/g, ' ')
      .replace(/\s+([.!?])/, '$1')
      .replace(/\s+,/, ',')
-     .replace(/market/g, 'Market');
-     .replace(/pekarov/g, 'Pekarov');
-     .replace(/adamov/g, 'Adamov');
+     .replace(/market/g, 'Market')
+     .replace(/pekarov/g, 'Pekarov')
+     .replace(/adamov/g, 'Adamov')
 }
 
 function robot(question) {
