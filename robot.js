@@ -42,9 +42,9 @@ Mame to JESTE vice specifikovat?
 
 const unknown = `
 Byl detekovan nevhodny obsah. Zkuste polozit jinou, mene utocnou otazku. Treba ohledne Markety Pekarove-Eidamove.
-Bohuzel nezname odpoved, zkuste formulovat dotaz vice cesky.
+Bohuzel nezname odpoved, zkuste formulovat dotaz cesky.
 Bohuzel nezname odpoved. Zkuste otazku formulovat jinak a cesky.
-Omlouvame se, ale nezname odpoved. Napiste dotaz vice cesky.
+Omlouvame se, ale nezname odpoved. Napiste dotaz cesky.
 Velice se omlouvame, ale nejsme schopno zodpovedet vas dotaz. Prosime napiste ho cesky.
 Tato otazka se netyka Markety Pekarove-Eidamove.
 `.trim().split('\n')
